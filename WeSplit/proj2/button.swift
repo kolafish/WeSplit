@@ -8,7 +8,30 @@
 import SwiftUI
 
 struct button: View {
+    
+    @State private var showingAlert = false
+    @State private var showingAlert2 = false
+
+
     var body: some View {
+        Button("Show Alert") {
+            showingAlert = true
+        }
+        .buttonStyle(.bordered)
+        .alert("Important message", isPresented: $showingAlert) {
+            Button("Delete", role: .destructive) { }
+            Button("Cancel", role: .cancel) { }
+        }
+        Button("Show Alert") {
+            showingAlert2 = true
+        }
+        .buttonStyle(.borderedProminent)
+        .alert("Important message", isPresented: $showingAlert2) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text("Please read this.")
+        }
+        
         VStack {
             Button("Button 1") { }
                 .buttonStyle(.bordered)
