@@ -16,15 +16,13 @@ struct GuessTheFlag: View {
             Gradient.Stop(color: .black, location: 0.55),
         ], startPoint: .top, endPoint: .bottom)
         RadialGradient(colors: [.blue, .black], center: .center, startRadius: 20, endRadius: 200)
-
+        AngularGradient(colors: [.red, .yellow, .green, .blue, .purple, .red], center: .center)
+        Text("Your content")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .foregroundStyle(.white)
+            .background(.red.gradient)
         HStack {
             VStack(alignment: .leading){
-                Text("X")
-                Text("X")
-                Text("X")
-            }
-            VStack(alignment: .leading){
-                Text("X")
                 Text("X")
                 Text("X")
             }
@@ -33,8 +31,6 @@ struct GuessTheFlag: View {
                     .background(Color(red: 1, green: 0.8, blue: 0))
                 Text("X")
                     .background(Color.secondary)
-                Text("X")
-                    .background(.ultraThinMaterial)
             }
         }
         ZStack {
@@ -43,8 +39,8 @@ struct GuessTheFlag: View {
         }
         ZStack {
             Color.indigo
-                .frame(width: 100, height: 100)
-            Text("Your content")
+                .frame(width: 50, height: 50)
+            Text("Your ")
         }
 //        .ignoresSafeArea()
 

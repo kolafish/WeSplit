@@ -13,6 +13,7 @@
 		1BA86D3D2C2BC4A1006CEEBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA86D3C2C2BC4A1006CEEBB /* Preview Assets.xcassets */; };
 		1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D432C2D08DF006CEEBB /* TempConv.swift */; };
 		1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */; };
+		1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D492C2D6209006CEEBB /* button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1BA86D3C2C2BC4A1006CEEBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BA86D432C2D08DF006CEEBB /* TempConv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConv.swift; sourceTree = "<group>"; };
 		1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		1BA86D492C2D6209006CEEBB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,10 @@
 		1BA86D342C2BC49F006CEEBB /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				1BA86D472C2D5EAC006CEEBB /* proj2 */,
 				1BA86D352C2BC49F006CEEBB /* WeSplitApp.swift */,
 				1BA86D372C2BC49F006CEEBB /* ContentView.swift */,
 				1BA86D432C2D08DF006CEEBB /* TempConv.swift */,
-				1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */,
 				1BA86D392C2BC4A1006CEEBB /* Assets.xcassets */,
 				1BA86D3B2C2BC4A1006CEEBB /* Preview Content */,
 			);
@@ -71,6 +73,15 @@
 				1BA86D3C2C2BC4A1006CEEBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BA86D472C2D5EAC006CEEBB /* proj2 */ = {
+			isa = PBXGroup;
+			children = (
+				1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */,
+				1BA86D492C2D6209006CEEBB /* button.swift */,
+			);
+			path = proj2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */,
+				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
