@@ -9,6 +9,14 @@ import SwiftUI
 
 struct GuessTheFlag: View {
     var body: some View {
+        LinearGradient(colors: [.white, .black], startPoint: .top, endPoint: .bottom)
+        Spacer()
+        LinearGradient(stops: [
+            Gradient.Stop(color: .white, location: 0.45),
+            Gradient.Stop(color: .black, location: 0.55),
+        ], startPoint: .top, endPoint: .bottom)
+        RadialGradient(colors: [.blue, .black], center: .center, startRadius: 20, endRadius: 200)
+
         HStack {
             VStack(alignment: .leading){
                 Text("X")
@@ -35,7 +43,7 @@ struct GuessTheFlag: View {
         }
         ZStack {
             Color.indigo
-                .frame(width: 200, height: 200)
+                .frame(width: 100, height: 100)
             Text("Your content")
         }
 //        .ignoresSafeArea()
