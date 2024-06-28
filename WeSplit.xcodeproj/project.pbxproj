@@ -15,6 +15,9 @@
 		1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */; };
 		1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D492C2D6209006CEEBB /* button.swift */; };
 		E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */; };
+		E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */; };
+		E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15062C2E84820020F7EA /* CustomContainer.swift */; };
+		E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15092C2EA1D30020F7EA /* challeng_c2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		1BA86D492C2D6209006CEEBB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
 		E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag2.swift; sourceTree = "<group>"; };
+		E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
+		E7AB15062C2E84820020F7EA /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
+		E7AB15092C2EA1D30020F7EA /* challeng_c2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challeng_c2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 		1BA86D342C2BC49F006CEEBB /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				E7AB15082C2EA1AF0020F7EA /* Consolidation2 */,
+				E7AB15032C2E4F080020F7EA /* proj3 */,
 				1BA86D472C2D5EAC006CEEBB /* proj2 */,
 				1BA86D352C2BC49F006CEEBB /* WeSplitApp.swift */,
 				1BA86D372C2BC49F006CEEBB /* ContentView.swift */,
@@ -85,6 +93,23 @@
 				E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */,
 			);
 			path = proj2;
+			sourceTree = "<group>";
+		};
+		E7AB15032C2E4F080020F7EA /* proj3 */ = {
+			isa = PBXGroup;
+			children = (
+				E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */,
+				E7AB15062C2E84820020F7EA /* CustomContainer.swift */,
+			);
+			path = proj3;
+			sourceTree = "<group>";
+		};
+		E7AB15082C2EA1AF0020F7EA /* Consolidation2 */ = {
+			isa = PBXGroup;
+			children = (
+				E7AB15092C2EA1D30020F7EA /* challeng_c2.swift */,
+			);
+			path = Consolidation2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +185,11 @@
 				1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */,
 				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
+				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
+				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
+				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

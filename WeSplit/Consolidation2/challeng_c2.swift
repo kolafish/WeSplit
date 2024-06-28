@@ -1,15 +1,16 @@
 //
-//  GuessFlag2.swift
+//  challeng_c2.swift
 //  WeSplit
 //
-//  Created by Kola on 2024/6/27.
+//  Created by Kola on 2024/6/28.
 //
 
 import SwiftUI
 
-struct GuessFlag2: View {
-    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
-    @State private var correctAnswer = Int.random(in: 0...2)
+struct challeng_c2: View {
+    let pos = ["✌️", "✊", "✋"]
+    @State private var showPos = Int.random(in: 0...2)
+    @State private var winornot = Bool.random()
     @State private var showingScore = false
     @State private var scoreTitle = ""
     @State private var totalScore = 0
@@ -21,11 +22,8 @@ struct GuessFlag2: View {
 
 
     
-    
     var body: some View {
         ZStack {
-//            LinearGradient(colors: [.blue, .black], startPoint: .top, endPoint: .bottom)
-//                .ignoresSafeArea()
             RadialGradient(stops: [
                 .init(color: Color(red: 0.1, green: 0.2, blue: 0.45), location: 0.3),
                 .init(color: Color(red: 0.76, green: 0.15, blue: 0.26), location: 0.3),
@@ -33,25 +31,32 @@ struct GuessFlag2: View {
                 .ignoresSafeArea()
             VStack {
                 Spacer()
-                Text("Guess the Flag")
+
+                Text("Choose the right")
                         .font(.largeTitle.weight(.bold))
                         .foregroundStyle(.white)
-                VStack(spacing: 15) {
+                VStack(spacing: 25) {
                     VStack {
-                        Text("Tap the flag of")
+                        Text("the App pos")
                             .foregroundStyle(.secondary)
-                            .font(.subheadline.weight(.heavy))
+                            .font(.system(size: 24).weight(.heavy))
 
-                        Text(countries[correctAnswer])
+
+                        Text(pos[showPos])
 //                            .foregroundStyle(.white)
-                            .font(.largeTitle.weight(.semibold))
+                            .font(.system(size: 42).weight(.semibold))
+                        Text("Try to " + (winornot ? "Win" : "Lose"))
+                            .foregroundStyle(.secondary)
+                            .font(.title.weight(.heavy))
 
                     }
-                    ForEach(0..<3) { number in
-                        Button {
-                            flagTapped(number)
-                        } label: {
-                            FlagImage(text:countries[number])
+                    HStack {
+                        ForEach(0..<3) { number in
+                            Button {
+                                flagTapped(number)
+                            } label: {
+                                FlagImage2(text:pos[number])
+                            }
                         }
                     }
                 }
@@ -59,8 +64,8 @@ struct GuessFlag2: View {
                 .padding(.vertical, 20)
                 .background(.regularMaterial)
             .clipShape(.rect(cornerRadius: 20))
-                Spacer()
-                Spacer()
+//                Spacer()
+//                Spacer()
                 Text("Score: \(totalScore)")
                     .foregroundStyle(.white)
                     .font(.title.bold())
@@ -84,11 +89,22 @@ struct GuessFlag2: View {
 
     }
     func flagTapped(_ number: Int) {
-        if number == correctAnswer {
+        var isright = false
+        switch showPos{
+        case  0:
+            isright  = winornot ? (number == 1 ? true : false) : (number == 2 ? true : false)
+        case  1:
+            isright  = winornot ? (number == 2 ? true : false) : (number == 0 ? true : false)
+        case 2:
+            isright  = winornot ? (number == 0 ? true : false) : (number == 1 ? true : false)
+        default:
+            isright = false
+        }
+        if isright  {
             scoreTitle = "Correct"
             totalScore += 1
         } else {
-            scoreTitle = "Wrong!\nThat's the flag of \(countries[number])"
+            scoreTitle = "Oppppps...Wrong!"
         }
         showingScore = true
     }
@@ -99,26 +115,28 @@ struct GuessFlag2: View {
             goingReset = true
             return
         }
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
+        showPos = Int.random(in: 0...2)
+        winornot = Bool.random()
+        
     }
     func reset() {
         totalCount = 0
         totalScore = 0
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
+        showPos = Int.random(in: 0...2)
+        winornot = Bool.random()
     }
 }
 
-struct FlagImage: View {
+struct FlagImage2: View {
     var text: String
     var body: some View {
-        Image(text)
-            .clipShape(.capsule)
-            .shadow(radius: 5)
+        Text(text)
+            .font(.system(size: 50))
     }
 }
 
 #Preview {
-    GuessFlag2()
+    challeng_c2()
 }
+
+
