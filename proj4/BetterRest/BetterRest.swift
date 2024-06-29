@@ -37,7 +37,7 @@ struct BetterRest: View {
 //                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20).fontWeight(.regular)
                     Picker("^[\(coffeeAmount) cup](inflect: true)", selection: $coffeeAmount) {
                         ForEach(0..<6) {
-                            Text(String($0) )
+                            Text("\($0)" )
                         }
                     }
                     .pickerStyle(.segmented)
