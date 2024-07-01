@@ -14,6 +14,8 @@
 		1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D432C2D08DF006CEEBB /* TempConv.swift */; };
 		1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */; };
 		1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D492C2D6209006CEEBB /* button.swift */; };
+		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
+		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
 		E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */; };
 		E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */; };
 		E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15062C2E84820020F7EA /* CustomContainer.swift */; };
@@ -26,6 +28,9 @@
 		E7AB152D2C3137BC0020F7EA /* AnimationTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB152C2C3137BC0020F7EA /* AnimationTest2.swift */; };
 		E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB152E2C31462A0020F7EA /* proj6ch.swift */; };
 		E7AB15322C3197C40020F7EA /* Consolidation3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */; };
+		E7AB15502C3269210020F7EA /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB154F2C3269210020F7EA /* iExpense.swift */; };
+		E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15512C32B1550020F7EA /* iExprense2.swift */; };
+		E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15532C32B90F0020F7EA /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,8 @@
 		1BA86D432C2D08DF006CEEBB /* TempConv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConv.swift; sourceTree = "<group>"; };
 		1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		1BA86D492C2D6209006CEEBB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
+		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
 		E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag2.swift; sourceTree = "<group>"; };
 		E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		E7AB15062C2E84820020F7EA /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		E7AB152C2C3137BC0020F7EA /* AnimationTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest2.swift; sourceTree = "<group>"; };
 		E7AB152E2C31462A0020F7EA /* proj6ch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj6ch.swift; sourceTree = "<group>"; };
 		E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consolidation3Test.swift; sourceTree = "<group>"; };
+		E7AB154F2C3269210020F7EA /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
+		E7AB15512C32B1550020F7EA /* iExprense2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExprense2.swift; sourceTree = "<group>"; };
+		E7AB15532C32B90F0020F7EA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,8 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				E70A310A2C32CAEC0047C834 /* proj8 */,
+				E7AB154E2C32690E0020F7EA /* proj7 */,
 				E7AB15302C3197A50020F7EA /* Consolidation3 */,
 				E7AB15292C3027110020F7EA /* proj6 */,
 				E7AB15112C2FB1360020F7EA /* proj5 */,
@@ -115,6 +127,15 @@
 				E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */,
 			);
 			path = proj2;
+			sourceTree = "<group>";
+		};
+		E70A310A2C32CAEC0047C834 /* proj8 */ = {
+			isa = PBXGroup;
+			children = (
+				E70A310B2C32CB960047C834 /* proj8test.swift */,
+				E70A310D2C32F27E0047C834 /* proj8test2.swift */,
+			);
+			path = proj8;
 			sourceTree = "<group>";
 		};
 		E7AB15032C2E4F080020F7EA /* proj3 */ = {
@@ -174,6 +195,16 @@
 				E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */,
 			);
 			path = Consolidation3;
+			sourceTree = "<group>";
+		};
+		E7AB154E2C32690E0020F7EA /* proj7 */ = {
+			isa = PBXGroup;
+			children = (
+				E7AB154F2C3269210020F7EA /* iExpense.swift */,
+				E7AB15512C32B1550020F7EA /* iExprense2.swift */,
+				E7AB15532C32B90F0020F7EA /* AddView.swift */,
+			);
+			path = proj7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,12 +282,17 @@
 				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
+				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
+				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
 				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
 				E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */,
+				E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */,
+				E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
+				E70A310C2C32CB960047C834 /* proj8test.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
 				E7AB15102C2F9EF50020F7EA /* SleepCalculator.mlmodel in Sources */,
 				E7AB15322C3197C40020F7EA /* Consolidation3Test.swift in Sources */,

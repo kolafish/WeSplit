@@ -8,6 +8,8 @@
 import SwiftUI
 
 
+
+
 struct Consolidation3Test: View {
     
     @State private var alertTitle = ""
@@ -38,6 +40,7 @@ struct Consolidation3Test: View {
                         ForEach(5..<12) {
                             Text("\($0) ")
                         }
+                    
                     }
                     HStack {
                             Text(questions[0])
