@@ -25,6 +25,7 @@
 		E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB152A2C3027280020F7EA /* AnimationTest.swift */; };
 		E7AB152D2C3137BC0020F7EA /* AnimationTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB152C2C3137BC0020F7EA /* AnimationTest2.swift */; };
 		E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB152E2C31462A0020F7EA /* proj6ch.swift */; };
+		E7AB15322C3197C40020F7EA /* Consolidation3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E7AB152A2C3027280020F7EA /* AnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
 		E7AB152C2C3137BC0020F7EA /* AnimationTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest2.swift; sourceTree = "<group>"; };
 		E7AB152E2C31462A0020F7EA /* proj6ch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj6ch.swift; sourceTree = "<group>"; };
+		E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consolidation3Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				E7AB15302C3197A50020F7EA /* Consolidation3 */,
 				E7AB15292C3027110020F7EA /* proj6 */,
 				E7AB15112C2FB1360020F7EA /* proj5 */,
 				E7AB150B2C2EC1AE0020F7EA /* proj4 */,
@@ -165,6 +168,14 @@
 			path = proj6;
 			sourceTree = "<group>";
 		};
+		E7AB15302C3197A50020F7EA /* Consolidation3 */ = {
+			isa = PBXGroup;
+			children = (
+				E7AB15312C3197C40020F7EA /* Consolidation3Test.swift */,
+			);
+			path = Consolidation3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +259,7 @@
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
 				E7AB15102C2F9EF50020F7EA /* SleepCalculator.mlmodel in Sources */,
+				E7AB15322C3197C40020F7EA /* Consolidation3Test.swift in Sources */,
 				E7AB152D2C3137BC0020F7EA /* AnimationTest2.swift in Sources */,
 				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
