@@ -20,31 +20,44 @@ struct HabitDetailView: View {
     @State var astronaut: HabitItem
     var expenseWork: Habits
     var expensePlay: Habits
+    @State var amount = 0.0
 
     var body: some View {
         VStack(alignment: .leading) {
-                Text(astronaut.description)
-                mydivider1()
-                Text("打卡次数 \(astronaut.times)")
-                mydivider1()
-                Text("打卡总时长 \(astronaut.amount)")
-                mydivider1()
-            Button("打卡"){
-                if (astronaut.type == "学习工作") {
-                    var pos = expenseWork.items.firstIndex(of : astronaut)
-                    let item = HabitItem(name: astronaut.name, type: astronaut.type, amount: astronaut.amount,times : astronaut.times + 1, description: astronaut.description)
-                    expenseWork.items[pos!] = item
-                    astronaut.times = astronaut.times +  1
+            Text(astronaut.description)
+            mydivider1()
+            Text("打卡次数 \(astronaut.times)")
+            mydivider1()
+            Text("打卡总时长 \(astronaut.amount)")
+            mydivider1()
 
-            }
-                else {
-                    var pos = expenseWork.items.firstIndex(of : astronaut)
-                    let item = HabitItem(name: astronaut.name, type: astronaut.type, amount: astronaut.amount,times : astronaut.times + 1, description: astronaut.description)
-                    expenseWork.items[pos!] = item
-                    astronaut.times = astronaut.times +  1
+            Section
+            {           
+                HStack {
+                    Text("打卡时长")
+                    TextField("打卡时长", value: $amount, format: .number )
+                        .keyboardType(.decimalPad)
+                        .background(.gray)
                 }
+
+                Button("打卡"){
+                    if (astronaut.type == "学习工作") {
+                        let pos = expenseWork.items.firstIndex(of : astronaut)
+                        let item = HabitItem(name: astronaut.name, type: astronaut.type, amount: astronaut.amount + amount,times : astronaut.times + 1, description: astronaut.description)
+                        expenseWork.items[pos!] = item
+                        astronaut = item
+                    }
+                    else {
+                        let pos = expensePlay.items.firstIndex(of : astronaut)
+                        let item = HabitItem(name: astronaut.name, type: astronaut.type, amount: astronaut.amount + amount,times : astronaut.times + 1, description: astronaut.description)
+                        expensePlay.items[pos!] = item
+                        astronaut = item
+                    }
+                }
+                .disabled(amount < 0.5)
+                
             }
-            }
+        }
         .padding()
 //        .background(.darkBackground)
         .navigationTitle(astronaut.name)
@@ -158,7 +171,7 @@ struct AddView4Habit: View {
                     }
                 }
 
-                TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                TextField("Amount", value: $amount, format: .number )
                     .keyboardType(.decimalPad)
 
                 

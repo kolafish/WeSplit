@@ -47,6 +47,8 @@
 		E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15532C32B90F0020F7EA /* AddView.swift */; };
 		E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C13B952C3428D3007AA957 /* proj9NavigationTest.swift */; };
 		E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C13B972C345D50007AA957 /* proj9NavigationTest2.swift */; };
+		E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE1E3A2C35973100698D66 /* CupcakeCorner.swift */; };
+		E7CE1E3D2C359A1700698D66 /* proj10networktest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE1E3C2C359A1700698D66 /* proj10networktest1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		E7AB15532C32B90F0020F7EA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		E7C13B952C3428D3007AA957 /* proj9NavigationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9NavigationTest.swift; sourceTree = "<group>"; };
 		E7C13B972C345D50007AA957 /* proj9NavigationTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9NavigationTest2.swift; sourceTree = "<group>"; };
+		E7CE1E3A2C35973100698D66 /* CupcakeCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner.swift; sourceTree = "<group>"; };
+		E7CE1E3C2C359A1700698D66 /* proj10networktest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj10networktest1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				E7CE1E392C3596D200698D66 /* proj10 */,
 				1B0344EB2C3542FB0049A645 /* Consilidation4 */,
 				E7C13B942C3423E8007AA957 /* proj9 */,
 				E70A310A2C32CAEC0047C834 /* proj8 */,
@@ -271,6 +276,15 @@
 			path = proj9;
 			sourceTree = "<group>";
 		};
+		E7CE1E392C3596D200698D66 /* proj10 */ = {
+			isa = PBXGroup;
+			children = (
+				E7CE1E3A2C35973100698D66 /* CupcakeCorner.swift */,
+				E7CE1E3C2C359A1700698D66 /* proj10networktest1.swift */,
+			);
+			path = proj10;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,11 +376,13 @@
 				1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */,
 				1BA3F8A52C33EEF300CA5FEA /* Color-Theme.swift in Sources */,
 				E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */,
+				E7CE1E3D2C359A1700698D66 /* proj10networktest1.swift in Sources */,
 				1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */,
 				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
+				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
 				E70A310C2C32CB960047C834 /* proj8test.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
