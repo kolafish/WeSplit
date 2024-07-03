@@ -12,6 +12,7 @@ struct proj9NavigationTest2: View {
     @State private var path = PathStore()
 
 
+
     var body: some View {
         NavigationStack(path: $path.path) {
             DetailView(number: 0, path: $path.path)

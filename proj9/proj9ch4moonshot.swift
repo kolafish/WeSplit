@@ -1,13 +1,15 @@
 //
-//  Moonshot.swift
+//  proj9ch4moonshot.swift
 //  WeSplit
 //
-//  Created by Kola Fish on 2024/7/2.
+//  Created by Kola Fish on 2024/7/3.
 //
 
 import SwiftUI
 
-struct Moonshot: View {
+struct proj9ch4moonshot: View {
+    //TODO need to add path for MissionView and AsronautView
+    
     @State var isList = false
     let astronauts : [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
@@ -16,7 +18,6 @@ struct Moonshot: View {
         
     ]
 
-    
     
     var body: some View {
         NavigationStack {
@@ -28,6 +29,12 @@ struct Moonshot: View {
                         List {
                             myContent(m : self)
                         }
+//                        List(0..<3) { i in
+//                            NavigationLink("Tap Me\(i)") {
+//                                DetailView22(number: i)
+//                            }
+//                        }
+                        
                     } else {
                         ScrollView {
                             LazyVGrid(columns: columns) {
@@ -37,12 +44,16 @@ struct Moonshot: View {
                     }
                 }
                 .padding([.horizontal, .bottom])
+                    .navigationDestination(for: Mission.self) { selection in
+//                        MissionView(mission: selection, astronauts: astronauts)
+                        Image(selection.image)
+                    }
 
             .navigationTitle("Moonshot")
             .background(.darkBackground)
             .preferredColorScheme(.dark)
             .toolbar {
-                Button("UseListView", systemImage: "list.bullet") {
+                Button("UseListVIew", systemImage: "list.bullet") {
                     isList.toggle()
                 }
             }
@@ -52,15 +63,18 @@ struct Moonshot: View {
 
     }
     
+
+    
     struct myContent: View {
-        var  m : Moonshot
+        var  m : proj9ch4moonshot
         var body: some View {
  
             ForEach(m.missions) { mission in
-                    NavigationLink {
-                        MissionView(mission: mission, astronauts: m.astronauts)
-                    } label: {
-                        VStack {
+                NavigationLink(value: mission)
+                    {
+////                        MissionView(mission: mission, astronauts: m.astronauts)
+//                    } label: {
+                VStack {
                             Image(mission.image)
                                 .resizable()
                                 .scaledToFit()
@@ -79,6 +93,7 @@ struct Moonshot: View {
                             .frame(maxWidth: .infinity)
                             .background(.lightBackground)
                         }
+
                         .clipShape(.rect(cornerRadius: 10))
                         .overlay(
                             RoundedRectangle(cornerRadius: 10)
@@ -92,5 +107,5 @@ struct Moonshot: View {
 }
 
 #Preview {
-    Moonshot()
+    proj9ch4moonshot()
 }

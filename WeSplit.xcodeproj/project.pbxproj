@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */; };
+		1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */; };
+		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
+		1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */; };
+		1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344EC2C35431C0049A645 /* HabitTracker.swift */; };
 		1BA3F8932C33DA8E00CA5FEA /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8922C33DA8E00CA5FEA /* astronauts.json */; };
 		1BA3F8952C33DA9800CA5FEA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8942C33DA9800CA5FEA /* missions.json */; };
 		1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA3F89C2C33DCF300CA5FEA /* Astronaut.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9navigationtest3.swift; sourceTree = "<group>"; };
+		1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4iExpense.swift; sourceTree = "<group>"; };
+		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
+		1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4moonshot.swift; sourceTree = "<group>"; };
+		1B0344EC2C35431C0049A645 /* HabitTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker.swift; sourceTree = "<group>"; };
 		1BA3F8922C33DA8E00CA5FEA /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		1BA3F8942C33DA9800CA5FEA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		1BA3F89C2C33DCF300CA5FEA /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
@@ -94,9 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0344EB2C3542FB0049A645 /* Consilidation4 */ = {
+			isa = PBXGroup;
+			children = (
+				1B0344EC2C35431C0049A645 /* HabitTracker.swift */,
+			);
+			path = Consilidation4;
+			sourceTree = "<group>";
+		};
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B0344EB2C3542FB0049A645 /* Consilidation4 */,
 				E7C13B942C3423E8007AA957 /* proj9 */,
 				E70A310A2C32CAEC0047C834 /* proj8 */,
 				E7AB154E2C32690E0020F7EA /* proj7 */,
@@ -243,7 +262,11 @@
 			isa = PBXGroup;
 			children = (
 				E7C13B952C3428D3007AA957 /* proj9NavigationTest.swift */,
+				1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */,
 				E7C13B972C345D50007AA957 /* proj9NavigationTest2.swift */,
+				1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */,
+				1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */,
+				1B0344E72C3502F60049A645 /* ttttt.swift */,
 			);
 			path = proj9;
 			sourceTree = "<group>";
@@ -326,6 +349,7 @@
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
+				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
 				E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */,
 				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
@@ -335,8 +359,11 @@
 				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
 				E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */,
 				E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */,
+				1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */,
 				1BA3F8A52C33EEF300CA5FEA /* Color-Theme.swift in Sources */,
 				E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */,
+				1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */,
+				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
@@ -348,6 +375,7 @@
 				E7AB152D2C3137BC0020F7EA /* AnimationTest2.swift in Sources */,
 				1BA3F8A72C33F36F00CA5FEA /* MissionView.swift in Sources */,
 				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
+				1B0344E82C3502F60049A645 /* ttttt.swift in Sources */,
 				1BA3F8AB2C34010600CA5FEA /* AstronautView.swift in Sources */,
 				1BA3F8A32C33E2C600CA5FEA /* Mission.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
