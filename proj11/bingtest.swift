@@ -20,7 +20,7 @@ struct bingtest: View {
     
     struct PushButton: View {
         let title: String
-        @Binding var isOn: Bool
+        @Binding var isOn: Bool // @Binding is used for structs, but @Bindable is used for observable classes
 
         var onColors = [Color.red, Color.yellow]
         var offColors = [Color(white: 0.6), Color(white: 0.4)]

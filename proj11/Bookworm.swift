@@ -10,9 +10,17 @@ import SwiftData
 
 
 struct Bookworm: View {
-    @Query var books: [Book]
+//    @Query(sort: \Book.title) var books: [Book]
+//    @Query(sort: \Book.rating, order: .reverse) var books: [Book]
+    @Query(sort: [
+        SortDescriptor(\Book.title),
+        SortDescriptor(\Book.author)
+    ]) var books: [Book]
+
+
     @Environment(\.modelContext) var modelContext
     @State private var showingAddScreen = false
+
 
 
     var body: some View {
@@ -27,12 +35,14 @@ struct Bookworm: View {
                             VStack(alignment: .leading) {
                                 Text(book.title)
                                     .font(.headline)
+                                    .foregroundStyle(book.rating == 1 ? .red : .primary)
                                 Text(book.author)
                                     .foregroundStyle(.secondary)
                             }
                         }
                     }
                 }
+                .onDelete(perform: deleteBooks)
             }
             .navigationTitle("Bookworm")
                .toolbar {
@@ -41,7 +51,11 @@ struct Bookworm: View {
                            showingAddScreen.toggle()
                        }
                    }
+                   ToolbarItem(placement: .topBarLeading) {
+                       EditButton()
+                   }
                }
+            
                .sheet(isPresented: $showingAddScreen) {
                    AddBookView()
                }
@@ -49,6 +63,16 @@ struct Bookworm: View {
                    DetailView(book: book)
                }
        }
+    }
+    
+    func deleteBooks(at offsets: IndexSet) {
+        for offset in offsets {
+            // find this book in our query
+            let book = books[offset]
+
+            // delete it from the context
+            modelContext.delete(book)
+        }
     }
 }
 
