@@ -12,6 +12,19 @@
 		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
 		1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */; };
 		1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344EC2C35431C0049A645 /* HabitTracker.swift */; };
+		1B4D7D7B2C369642006CDD0D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D7A2C369642006CDD0D /* Book.swift */; };
+		1B4D7D992C369842006CDD0D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D982C369842006CDD0D /* AddBookView.swift */; };
+		1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D9A2C369D04006CDD0D /* RatingView.swift */; };
+		1B4D7D9D2C369FCC006CDD0D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D9C2C369FCC006CDD0D /* EmojiRatingView.swift */; };
+		1B4D7DBB2C36A1BB006CDD0D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7DBA2C36A1BB006CDD0D /* DetailView.swift */; };
+		1B66A47A2C364B8C007AB923 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A4792C364B8C007AB923 /* Order.swift */; };
+		1B66A47E2C364D89007AB923 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A47D2C364D89007AB923 /* AddressView.swift */; };
+		1B66A4802C36520B007AB923 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A47F2C36520B007AB923 /* CheckoutView.swift */; };
+		1B66A4832C3678DF007AB923 /* Bookworm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A4822C3678DF007AB923 /* Bookworm.swift */; };
+		1B66A4872C367BD5007AB923 /* bingtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A4862C367BD5007AB923 /* bingtest.swift */; };
+		1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A4882C367F68007AB923 /* TextEditorTest.swift */; };
+		1B66A48B2C36822C007AB923 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A48A2C36822C007AB923 /* Student.swift */; };
+		1B66A48D2C368928007AB923 /* CheckSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A48C2C368928007AB923 /* CheckSplit.swift */; };
 		1BA3F8932C33DA8E00CA5FEA /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8922C33DA8E00CA5FEA /* astronauts.json */; };
 		1BA3F8952C33DA9800CA5FEA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8942C33DA9800CA5FEA /* missions.json */; };
 		1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA3F89C2C33DCF300CA5FEA /* Astronaut.swift */; };
@@ -28,6 +41,7 @@
 		1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D432C2D08DF006CEEBB /* TempConv.swift */; };
 		1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */; };
 		1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D492C2D6209006CEEBB /* button.swift */; };
+		1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2219C2C36457A00771475 /* proj10networktest2.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
 		E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */; };
@@ -57,6 +71,19 @@
 		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
 		1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4moonshot.swift; sourceTree = "<group>"; };
 		1B0344EC2C35431C0049A645 /* HabitTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker.swift; sourceTree = "<group>"; };
+		1B4D7D7A2C369642006CDD0D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		1B4D7D982C369842006CDD0D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		1B4D7D9A2C369D04006CDD0D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		1B4D7D9C2C369FCC006CDD0D /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		1B4D7DBA2C36A1BB006CDD0D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1B66A4792C364B8C007AB923 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1B66A47D2C364D89007AB923 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		1B66A47F2C36520B007AB923 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		1B66A4822C3678DF007AB923 /* Bookworm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookworm.swift; sourceTree = "<group>"; };
+		1B66A4862C367BD5007AB923 /* bingtest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bingtest.swift; sourceTree = "<group>"; };
+		1B66A4882C367F68007AB923 /* TextEditorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTest.swift; sourceTree = "<group>"; };
+		1B66A48A2C36822C007AB923 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		1B66A48C2C368928007AB923 /* CheckSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplit.swift; sourceTree = "<group>"; };
 		1BA3F8922C33DA8E00CA5FEA /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		1BA3F8942C33DA9800CA5FEA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		1BA3F89C2C33DCF300CA5FEA /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
@@ -74,6 +101,7 @@
 		1BA86D432C2D08DF006CEEBB /* TempConv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConv.swift; sourceTree = "<group>"; };
 		1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		1BA86D492C2D6209006CEEBB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		1BC2219C2C36457A00771475 /* proj10networktest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj10networktest2.swift; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
 		E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag2.swift; sourceTree = "<group>"; };
@@ -116,9 +144,26 @@
 			path = Consilidation4;
 			sourceTree = "<group>";
 		};
+		1B66A4812C367680007AB923 /* proj11 */ = {
+			isa = PBXGroup;
+			children = (
+				1B66A4822C3678DF007AB923 /* Bookworm.swift */,
+				1B4D7DBA2C36A1BB006CDD0D /* DetailView.swift */,
+				1B4D7D9C2C369FCC006CDD0D /* EmojiRatingView.swift */,
+				1B4D7D9A2C369D04006CDD0D /* RatingView.swift */,
+				1B66A4862C367BD5007AB923 /* bingtest.swift */,
+				1B66A4882C367F68007AB923 /* TextEditorTest.swift */,
+				1B66A48A2C36822C007AB923 /* Student.swift */,
+				1B4D7D7A2C369642006CDD0D /* Book.swift */,
+				1B4D7D982C369842006CDD0D /* AddBookView.swift */,
+			);
+			path = proj11;
+			sourceTree = "<group>";
+		};
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B66A4812C367680007AB923 /* proj11 */,
 				E7CE1E392C3596D200698D66 /* proj10 */,
 				1B0344EB2C3542FB0049A645 /* Consilidation4 */,
 				E7C13B942C3423E8007AA957 /* proj9 */,
@@ -149,6 +194,7 @@
 				1BA86D472C2D5EAC006CEEBB /* proj2 */,
 				1BA86D352C2BC49F006CEEBB /* WeSplitApp.swift */,
 				1BA86D372C2BC49F006CEEBB /* ContentView.swift */,
+				1B66A48C2C368928007AB923 /* CheckSplit.swift */,
 				1BA86D432C2D08DF006CEEBB /* TempConv.swift */,
 				1BA86D392C2BC4A1006CEEBB /* Assets.xcassets */,
 				1BA86D3B2C2BC4A1006CEEBB /* Preview Content */,
@@ -280,7 +326,11 @@
 			isa = PBXGroup;
 			children = (
 				E7CE1E3A2C35973100698D66 /* CupcakeCorner.swift */,
+				1B66A47F2C36520B007AB923 /* CheckoutView.swift */,
+				1B66A47D2C364D89007AB923 /* AddressView.swift */,
 				E7CE1E3C2C359A1700698D66 /* proj10networktest1.swift */,
+				1BC2219C2C36457A00771475 /* proj10networktest2.swift */,
+				1B66A4792C364B8C007AB923 /* Order.swift */,
 			);
 			path = proj10;
 			sourceTree = "<group>";
@@ -361,6 +411,7 @@
 				1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */,
 				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
+				1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */,
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
@@ -370,12 +421,16 @@
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
 				1BA3F89F2C33DD2000CA5FEA /*  Bundle-Decodable.swift in Sources */,
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
+				1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */,
+				1B66A48B2C36822C007AB923 /* Student.swift in Sources */,
 				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
 				E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */,
 				E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */,
 				1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */,
+				1B4D7DBB2C36A1BB006CDD0D /* DetailView.swift in Sources */,
 				1BA3F8A52C33EEF300CA5FEA /* Color-Theme.swift in Sources */,
 				E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */,
+				1B4D7D7B2C369642006CDD0D /* Book.swift in Sources */,
 				E7CE1E3D2C359A1700698D66 /* proj10networktest1.swift in Sources */,
 				1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */,
 				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
@@ -384,17 +439,26 @@
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
+				1B4D7D9D2C369FCC006CDD0D /* EmojiRatingView.swift in Sources */,
 				E70A310C2C32CB960047C834 /* proj8test.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
+				1B66A4872C367BD5007AB923 /* bingtest.swift in Sources */,
 				E7AB15102C2F9EF50020F7EA /* SleepCalculator.mlmodel in Sources */,
+				1B66A47E2C364D89007AB923 /* AddressView.swift in Sources */,
+				1B66A4802C36520B007AB923 /* CheckoutView.swift in Sources */,
 				E7AB15322C3197C40020F7EA /* Consolidation3Test.swift in Sources */,
+				1B66A48D2C368928007AB923 /* CheckSplit.swift in Sources */,
 				E7AB152D2C3137BC0020F7EA /* AnimationTest2.swift in Sources */,
 				1BA3F8A72C33F36F00CA5FEA /* MissionView.swift in Sources */,
 				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
 				1B0344E82C3502F60049A645 /* ttttt.swift in Sources */,
 				1BA3F8AB2C34010600CA5FEA /* AstronautView.swift in Sources */,
+				1B66A4832C3678DF007AB923 /* Bookworm.swift in Sources */,
+				1B4D7D992C369842006CDD0D /* AddBookView.swift in Sources */,
 				1BA3F8A32C33E2C600CA5FEA /* Mission.swift in Sources */,
+				1B66A47A2C364B8C007AB923 /* Order.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
+				1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

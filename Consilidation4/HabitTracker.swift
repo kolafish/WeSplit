@@ -17,6 +17,7 @@ struct HabitItem: Identifiable, Codable, Hashable,Equatable {
 }
 
 struct HabitDetailView: View {
+    @Environment(\.dismiss) var dismiss
     @State var astronaut: HabitItem
     var expenseWork: Habits
     var expensePlay: Habits
@@ -53,8 +54,12 @@ struct HabitDetailView: View {
                         expensePlay.items[pos!] = item
                         astronaut = item
                     }
+                    dismiss()
                 }
                 .disabled(amount < 0.5)
+//                .foregroundStyle(.white)
+                .clipShape(.capsule)
+                .shadow(radius: 5)
                 
             }
         }
