@@ -33,7 +33,7 @@ struct ttttt: View {
                 Text("You selected the string \(selection)")
             }
         }
-        }
+    }
     
 }
 

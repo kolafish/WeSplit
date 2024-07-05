@@ -14,7 +14,9 @@ struct WeSplitApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Student.self,
-            Book.self
+            Book.self,
+            UserP12.self,
+            ExpensesSD.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
