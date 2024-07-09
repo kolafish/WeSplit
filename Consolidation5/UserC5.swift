@@ -9,14 +9,14 @@ import Foundation
 import SwiftData
 
 @Model
-class UserC5  : Codable, Equatable{
+final class UserC5  : Codable, Equatable{
     let id : UUID
     let name: String
     let isActive: Bool
     let age : Int
     let registered: Date
     let tags : [String]
-    let friends = [FriendC5]()
+    var friends = [FriendC5]()
 //    @Relationship(deleteRule: .cascade) var jobs = [Job]()   delete a user would delete all the jobs and all job's relationship
 
     enum CodingKeys: String, CodingKey {
@@ -33,22 +33,18 @@ class UserC5  : Codable, Equatable{
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
         let strid = try container.decode(String.self, forKey: .id)
-        print("decode 0")
 
         self.id = UUID(uuidString: strid) ?? UUID()
         self.name = try container.decode(String.self, forKey: .name)
-        print("decode 1")
         self.isActive = try container.decode(Bool.self, forKey: .isActive)
         self.age = try container.decode(Int.self, forKey: .age)
         let strreg = try container.decode(String.self, forKey: .registered)
-        print("decode 2")
 
         self.registered = try Date(strreg,strategy:.iso8601)
         self.tags = try container.decode([String].self, forKey: .tags)
-        print("decode 3")
 
         self.friends = try container.decode([FriendC5].self, forKey: .friends)
-        print("decode 4")
+//        print("decode 4")
 
         
     }
@@ -70,7 +66,7 @@ class UserC5  : Codable, Equatable{
 
 
 @Model
-class FriendC5 : Codable, Equatable {
+final class FriendC5 : Codable, Equatable {
     let id: UUID
     let name: String
 

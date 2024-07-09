@@ -11,59 +11,63 @@ import SwiftData
 struct UserC15View: View {
     @Environment(\.modelContext) var modelContext
     @Query var users: [UserC5]
-    @State var getCount  = 0
+//    @Binding var path : [UserC5]
+
 
     var body: some View {
-        Text("Hi \(getCount)")
         List(users) { user in
-            VStack {
-                Text(user.name)
-                Text(user.id.uuidString)
+            NavigationLink(value: user) {
+                LazyVStack(alignment: .leading)  {
+                    Text(user.name)
+                    Text(user.id.uuidString).font(.footnote).foregroundStyle(.secondary)
+                }
             }
         }
         .task {
             await loadData()
         }
+        .navigationDestination(for: UserC5.self) { user in
+            EditUserC5View(user: user)
+        }
     }
  
     func loadData() async {
-        getCount = 1
         if users.count > 0 {
-            getCount = 2
             print("get from swiftdata count\(users.count)")
             return
         }
         guard let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json") else {
-            getCount = 3
             print("Invalid URL")
             return
         }
-        getCount = 4
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
-            getCount = 6
-            print(data)
             if let decodedResponse = try? JSONDecoder().decode([UserC5].self, from: data) {
-                getCount = 5
-                print("get from web count \(decodedResponse.count)")
-            
                 for e in decodedResponse {
-//                    modelContext.insert(e)
+                    modelContext.insert(e)
                 }
-//                users = decodedResponse.users
             }
         } catch {
-            getCount = 7
             print("Invalid data")
         }
     }
 }
 
 
-struct ResponseC5: Codable {
-    var users: [UserC5]
-}
 
+struct EditUserC5View: View {
+    let user: UserC5
+    
+    var body: some View {
+        ScrollView{
+            Text("name:" + user.name)
+            Text("id:" + user.id.uuidString)
+            Text("age:\(user.age)")
+            
+        }
+        .navigationTitle("User Detail")
+    }
+}
 
 
 #Preview {
