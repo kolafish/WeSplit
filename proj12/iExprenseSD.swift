@@ -79,7 +79,7 @@ struct iExprenseSD: View {
                     }
                 }
                 ToolbarItem() {
-                    Menu("OnlyFilter") {
+                    Menu("OnlyFilter", systemImage: "funnel") {
                         Picker("Filter", selection: $selecttype) {
                             ForEach(filtertype, id: \.self) {
                                 Text($0)

@@ -29,6 +29,9 @@
 		1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A4882C367F68007AB923 /* TextEditorTest.swift */; };
 		1B66A48B2C36822C007AB923 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A48A2C36822C007AB923 /* Student.swift */; };
 		1B66A48D2C368928007AB923 /* CheckSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66A48C2C368928007AB923 /* CheckSplit.swift */; };
+		1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED12C3CF19200DBDDCD /* UserC5.swift */; };
+		1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED52C3D09F800DBDDCD /* FriendFaceShow.swift */; };
+		1B6B8ED82C3D0BAA00DBDDCD /* UserC15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED72C3D0BAA00DBDDCD /* UserC15View.swift */; };
 		1B98B3F62C37C554008FBE90 /* iExprenseSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98B3F52C37C554008FBE90 /* iExprenseSD.swift */; };
 		1BA3F8932C33DA8E00CA5FEA /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8922C33DA8E00CA5FEA /* astronauts.json */; };
 		1BA3F8952C33DA9800CA5FEA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8942C33DA9800CA5FEA /* missions.json */; };
@@ -93,6 +96,9 @@
 		1B66A4882C367F68007AB923 /* TextEditorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTest.swift; sourceTree = "<group>"; };
 		1B66A48A2C36822C007AB923 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		1B66A48C2C368928007AB923 /* CheckSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSplit.swift; sourceTree = "<group>"; };
+		1B6B8ED12C3CF19200DBDDCD /* UserC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserC5.swift; sourceTree = "<group>"; };
+		1B6B8ED52C3D09F800DBDDCD /* FriendFaceShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceShow.swift; sourceTree = "<group>"; };
+		1B6B8ED72C3D0BAA00DBDDCD /* UserC15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserC15View.swift; sourceTree = "<group>"; };
 		1B98B3F52C37C554008FBE90 /* iExprenseSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExprenseSD.swift; sourceTree = "<group>"; };
 		1BA3F8922C33DA8E00CA5FEA /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		1BA3F8942C33DA9800CA5FEA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
@@ -182,9 +188,20 @@
 			path = proj11;
 			sourceTree = "<group>";
 		};
+		1B6B8ED02C3CF03A00DBDDCD /* Consolidation5 */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B8ED12C3CF19200DBDDCD /* UserC5.swift */,
+				1B6B8ED72C3D0BAA00DBDDCD /* UserC15View.swift */,
+				1B6B8ED52C3D09F800DBDDCD /* FriendFaceShow.swift */,
+			);
+			path = Consolidation5;
+			sourceTree = "<group>";
+		};
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B6B8ED02C3CF03A00DBDDCD /* Consolidation5 */,
 				1B4D7DBC2C378C14006CDD0D /* proj12 */,
 				1B66A4812C367680007AB923 /* proj11 */,
 				E7CE1E392C3596D200698D66 /* proj10 */,
@@ -461,11 +478,14 @@
 				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
+				1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				1B4D7DC02C37A30B006CDD0D /* User.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
+				1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */,
 				1B4D7D9D2C369FCC006CDD0D /* EmojiRatingView.swift in Sources */,
+				1B6B8ED82C3D0BAA00DBDDCD /* UserC15View.swift in Sources */,
 				E70A310C2C32CB960047C834 /* proj8test.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
 				1B66A4872C367BD5007AB923 /* bingtest.swift in Sources */,

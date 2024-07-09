@@ -16,7 +16,8 @@ struct WeSplitApp: App {
             Student.self,
             Book.self,
             UserP12.self,
-            ExpensesSD.self
+            ExpensesSD.self,
+            UserC5.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -29,7 +30,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Bookworm()
+            UserC15View()
         }
         .modelContainer(sharedModelContainer)
 
