@@ -49,6 +49,11 @@
 		1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D432C2D08DF006CEEBB /* TempConv.swift */; };
 		1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */; };
 		1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA86D492C2D6209006CEEBB /* button.swift */; };
+		1BADF41F2C3E5DC3009C1711 /* PhotoLibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF41E2C3E5DC3009C1711 /* PhotoLibTest.swift */; };
+		1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4202C3E6E6A009C1711 /* PhotoShareTest.swift */; };
+		1BADF4242C3E896F009C1711 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4232C3E896F009C1711 /* BucketList.swift */; };
+		1BADF4262C3E8A7A009C1711 /* UserP14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4252C3E8A7A009C1711 /* UserP14.swift */; };
+		1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */; };
 		1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2219C2C36457A00771475 /* proj10networktest2.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
@@ -120,6 +125,11 @@
 		1BA86D432C2D08DF006CEEBB /* TempConv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConv.swift; sourceTree = "<group>"; };
 		1BA86D452C2D3CEB006CEEBB /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		1BA86D492C2D6209006CEEBB /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		1BADF41E2C3E5DC3009C1711 /* PhotoLibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibTest.swift; sourceTree = "<group>"; };
+		1BADF4202C3E6E6A009C1711 /* PhotoShareTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoShareTest.swift; sourceTree = "<group>"; };
+		1BADF4232C3E896F009C1711 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
+		1BADF4252C3E8A7A009C1711 /* UserP14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserP14.swift; sourceTree = "<group>"; };
+		1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBundle.swift; sourceTree = "<group>"; };
 		1BC2219C2C36457A00771475 /* proj10networktest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj10networktest2.swift; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
@@ -207,6 +217,7 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1BADF4222C3E88DE009C1711 /* proj14 */,
 				E7DB29B22C3E112800D23D04 /* proj13 */,
 				1B6B8ED02C3CF03A00DBDDCD /* Consolidation5 */,
 				1B4D7DBC2C378C14006CDD0D /* proj12 */,
@@ -269,6 +280,16 @@
 				E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */,
 			);
 			path = proj2;
+			sourceTree = "<group>";
+		};
+		1BADF4222C3E88DE009C1711 /* proj14 */ = {
+			isa = PBXGroup;
+			children = (
+				1BADF4232C3E896F009C1711 /* BucketList.swift */,
+				1BADF4252C3E8A7A009C1711 /* UserP14.swift */,
+				1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */,
+			);
+			path = proj14;
 			sourceTree = "<group>";
 		};
 		E70A310A2C32CAEC0047C834 /* proj8 */ = {
@@ -388,6 +409,8 @@
 				E7DB29B32C3E113A00D23D04 /* Instafilter.swift */,
 				E7DB29B52C3E11A000D23D04 /* proj13test1.swift */,
 				E7DB29B72C3E217100D23D04 /* CoreImageTest.swift */,
+				1BADF41E2C3E5DC3009C1711 /* PhotoLibTest.swift */,
+				1BADF4202C3E6E6A009C1711 /* PhotoShareTest.swift */,
 			);
 			path = proj13;
 			sourceTree = "<group>";
@@ -465,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BADF4262C3E8A7A009C1711 /* UserP14.swift in Sources */,
 				1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */,
 				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
@@ -473,11 +497,14 @@
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
+				1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */,
 				E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */,
 				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
+				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
 				1BA3F89F2C33DD2000CA5FEA /*  Bundle-Decodable.swift in Sources */,
+				1BADF41F2C3E5DC3009C1711 /* PhotoLibTest.swift in Sources */,
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
 				1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */,
 				1B66A48B2C36822C007AB923 /* Student.swift in Sources */,
@@ -525,6 +552,7 @@
 				1BA3F8A32C33E2C600CA5FEA /* Mission.swift in Sources */,
 				1B66A47A2C364B8C007AB923 /* Order.swift in Sources */,
 				E7DB29B42C3E113A00D23D04 /* Instafilter.swift in Sources */,
+				1BADF4242C3E896F009C1711 /* BucketList.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
 				1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */,
 			);
