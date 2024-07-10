@@ -30,7 +30,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            UserC15View()
+            BucketList()
         }
         .modelContainer(sharedModelContainer)
 

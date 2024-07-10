@@ -57,6 +57,9 @@
 		1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2219C2C36457A00771475 /* proj10networktest2.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
+		E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */; };
+		E73E68252C3EE2B200F8B509 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68242C3EE2B200F8B509 /* MapTest.swift */; };
+		E73E68272C3EE6CF00F8B509 /* authenticationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68262C3EE6CF00F8B509 /* authenticationTest.swift */; };
 		E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */; };
 		E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */; };
 		E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AB15062C2E84820020F7EA /* CustomContainer.swift */; };
@@ -133,6 +136,10 @@
 		1BC2219C2C36457A00771475 /* proj10networktest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj10networktest2.swift; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
+		E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionTest.swift; sourceTree = "<group>"; };
+		E73E68242C3EE2B200F8B509 /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
+		E73E68262C3EE6CF00F8B509 /* authenticationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authenticationTest.swift; sourceTree = "<group>"; };
+		E73E68282C3EE7AB00F8B509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7AB15012C2DA0490020F7EA /* GuessFlag2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag2.swift; sourceTree = "<group>"; };
 		E7AB15042C2E4F1C0020F7EA /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		E7AB15062C2E84820020F7EA /* CustomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer.swift; sourceTree = "<group>"; };
@@ -247,6 +254,7 @@
 		1BA86D342C2BC49F006CEEBB /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				E73E68282C3EE7AB00F8B509 /* Info.plist */,
 				E7AB15082C2EA1AF0020F7EA /* Consolidation2 */,
 				E7AB15032C2E4F080020F7EA /* proj3 */,
 				1BA86D472C2D5EAC006CEEBB /* proj2 */,
@@ -287,6 +295,9 @@
 			children = (
 				1BADF4232C3E896F009C1711 /* BucketList.swift */,
 				1BADF4252C3E8A7A009C1711 /* UserP14.swift */,
+				E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */,
+				E73E68242C3EE2B200F8B509 /* MapTest.swift */,
+				E73E68262C3EE6CF00F8B509 /* authenticationTest.swift */,
 				1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */,
 			);
 			path = proj14;
@@ -497,6 +508,7 @@
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
+				E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */,
 				1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */,
 				E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */,
 				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
@@ -505,6 +517,7 @@
 				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
 				1BA3F89F2C33DD2000CA5FEA /*  Bundle-Decodable.swift in Sources */,
 				1BADF41F2C3E5DC3009C1711 /* PhotoLibTest.swift in Sources */,
+				E73E68252C3EE2B200F8B509 /* MapTest.swift in Sources */,
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
 				1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */,
 				1B66A48B2C36822C007AB923 /* Student.swift in Sources */,
@@ -555,6 +568,7 @@
 				1BADF4242C3E896F009C1711 /* BucketList.swift in Sources */,
 				1BA86D462C2D3CEB006CEEBB /* GuessTheFlag.swift in Sources */,
 				1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */,
+				E73E68272C3EE6CF00F8B509 /* authenticationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +705,10 @@
 				DEVELOPMENT_TEAM = NVJ3577YKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We need to unlock your data\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -720,6 +738,10 @@
 				DEVELOPMENT_TEAM = NVJ3577YKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We need to unlock your data\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
