@@ -7,13 +7,15 @@
 
 import SwiftUI
 import MapKit
-struct Location: Identifiable {
-    let id = UUID()
-    var name: String
-    var coordinate: CLLocationCoordinate2D
-}
+
 
 struct MapTest: View {
+    struct Location: Identifiable {
+        let id = UUID()
+        var name: String
+        var coordinate: CLLocationCoordinate2D
+    }
+    
     @State private var position = MapCameraPosition.region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275),
