@@ -55,6 +55,9 @@
 		1BADF4262C3E8A7A009C1711 /* UserP14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4252C3E8A7A009C1711 /* UserP14.swift */; };
 		1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */; };
 		1BC2219D2C36457A00771475 /* proj10networktest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2219C2C36457A00771475 /* proj10networktest2.swift */; };
+		1BC25B0C2C40EB92000D5B84 /* EditMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0B2C40EB92000D5B84 /* EditMapView.swift */; };
+		1BC25B0E2C412250000D5B84 /* MapResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0D2C412250000D5B84 /* MapResult.swift */; };
+		1BC25B102C4179CE000D5B84 /* MapContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0F2C4179CE000D5B84 /* MapContentView-ViewModel.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
 		E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */; };
@@ -135,6 +138,9 @@
 		1BADF4252C3E8A7A009C1711 /* UserP14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserP14.swift; sourceTree = "<group>"; };
 		1BADF4272C3E9173009C1711 /* FileManagerBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBundle.swift; sourceTree = "<group>"; };
 		1BC2219C2C36457A00771475 /* proj10networktest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj10networktest2.swift; sourceTree = "<group>"; };
+		1BC25B0B2C40EB92000D5B84 /* EditMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapView.swift; sourceTree = "<group>"; };
+		1BC25B0D2C412250000D5B84 /* MapResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResult.swift; sourceTree = "<group>"; };
+		1BC25B0F2C4179CE000D5B84 /* MapContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
 		E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionTest.swift; sourceTree = "<group>"; };
@@ -296,6 +302,9 @@
 			isa = PBXGroup;
 			children = (
 				1BADF4232C3E896F009C1711 /* BucketList.swift */,
+				1BC25B0F2C4179CE000D5B84 /* MapContentView-ViewModel.swift */,
+				1BC25B0D2C412250000D5B84 /* MapResult.swift */,
+				1BC25B0B2C40EB92000D5B84 /* EditMapView.swift */,
 				E7785C1F2C403EBD0093B728 /* Location.swift */,
 				1BADF4252C3E8A7A009C1711 /* UserP14.swift */,
 				E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */,
@@ -508,6 +517,7 @@
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
 				1B4D7DBE2C378E71006CDD0D /* SwiftDataProject.swift in Sources */,
 				1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */,
+				1BC25B102C4179CE000D5B84 /* MapContentView-ViewModel.swift in Sources */,
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
@@ -529,12 +539,14 @@
 				E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */,
 				1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */,
 				1B4D7DC42C37A6C5006CDD0D /* UsersView.swift in Sources */,
+				1BC25B0C2C40EB92000D5B84 /* EditMapView.swift in Sources */,
 				1B4D7DBB2C36A1BB006CDD0D /* DetailView.swift in Sources */,
 				1BA3F8A52C33EEF300CA5FEA /* Color-Theme.swift in Sources */,
 				E7AB15542C32B90F0020F7EA /* AddView.swift in Sources */,
 				1B4D7D7B2C369642006CDD0D /* Book.swift in Sources */,
 				E7CE1E3D2C359A1700698D66 /* proj10networktest1.swift in Sources */,
 				1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */,
+				1BC25B0E2C412250000D5B84 /* MapResult.swift in Sources */,
 				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
