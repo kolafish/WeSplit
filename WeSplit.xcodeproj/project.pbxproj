@@ -15,6 +15,9 @@
 		1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */; };
 		1B3554282C422AE00015BE5D /* AccessibilitySandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */; };
 		1B35542A2C422C060015BE5D /* OviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554292C422C060015BE5D /* OviceTest.swift */; };
+		1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542B2C4257C80015BE5D /* OviceTest2.swift */; };
+		1B35542E2C425A250015BE5D /* GuessFlag3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542D2C425A250015BE5D /* GuessFlag3.swift */; };
+		1B3554302C425C410015BE5D /* WordScramble2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542F2C425C410015BE5D /* WordScramble2.swift */; };
 		1B4D7D7B2C369642006CDD0D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D7A2C369642006CDD0D /* Book.swift */; };
 		1B4D7D992C369842006CDD0D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D982C369842006CDD0D /* AddBookView.swift */; };
 		1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D7D9A2C369D04006CDD0D /* RatingView.swift */; };
@@ -100,6 +103,9 @@
 		1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapViewModel.swift; sourceTree = "<group>"; };
 		1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySandbox.swift; sourceTree = "<group>"; };
 		1B3554292C422C060015BE5D /* OviceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest.swift; sourceTree = "<group>"; };
+		1B35542B2C4257C80015BE5D /* OviceTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest2.swift; sourceTree = "<group>"; };
+		1B35542D2C425A250015BE5D /* GuessFlag3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag3.swift; sourceTree = "<group>"; };
+		1B35542F2C425C410015BE5D /* WordScramble2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble2.swift; sourceTree = "<group>"; };
 		1B4D7D7A2C369642006CDD0D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		1B4D7D982C369842006CDD0D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		1B4D7D9A2C369D04006CDD0D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -202,6 +208,9 @@
 			children = (
 				1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */,
 				1B3554292C422C060015BE5D /* OviceTest.swift */,
+				1B35542B2C4257C80015BE5D /* OviceTest2.swift */,
+				1B35542D2C425A250015BE5D /* GuessFlag3.swift */,
+				1B35542F2C425C410015BE5D /* WordScramble2.swift */,
 			);
 			path = proj15;
 			sourceTree = "<group>";
@@ -571,6 +580,7 @@
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
 				1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
+				1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */,
 				1B4D7DC02C37A30B006CDD0D /* User.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
@@ -594,7 +604,9 @@
 				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
 				E7DB29B82C3E217100D23D04 /* CoreImageTest.swift in Sources */,
 				1B0344E82C3502F60049A645 /* ttttt.swift in Sources */,
+				1B35542E2C425A250015BE5D /* GuessFlag3.swift in Sources */,
 				E7785C202C403EBD0093B728 /* Location.swift in Sources */,
+				1B3554302C425C410015BE5D /* WordScramble2.swift in Sources */,
 				1BA3F8AB2C34010600CA5FEA /* AstronautView.swift in Sources */,
 				1B66A4832C3678DF007AB923 /* Bookworm.swift in Sources */,
 				1B4D7D992C369842006CDD0D /* AddBookView.swift in Sources */,

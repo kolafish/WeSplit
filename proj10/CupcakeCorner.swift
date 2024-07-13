@@ -23,6 +23,8 @@ struct CupcakeCorner: View {
 
                     Stepper("Number of cakes: \(order.quantity)", value: $order.quantity, in: 3...20)
                 }
+                .accessibilityElement(children: .ignore)
+
                 Section {
                     Toggle("Any special requests?", isOn: $order.specialRequestEnabled)
 

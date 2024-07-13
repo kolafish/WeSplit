@@ -57,7 +57,11 @@ struct iExprense2: View {
                             Spacer()
                             Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                                 .foregroundColor(item.amount >= 1000 ? .red : item.amount < 100 ? .secondary : .primary)
-                        }                }
+                        }
+                        .accessibilityElement()
+                        .accessibilityLabel(item.name + String(item.amount))
+                        .accessibilityHint(item.type)
+                    }
                     .onDelete(perform: removeItemsP)
                 }
                 Section("Business") {
