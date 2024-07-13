@@ -16,7 +16,11 @@ extension BucketList {
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         private(set) var locations: [Location]
         var selectedPlace: Location?
-        var isUnlocked = false
+        var isUnlocked = true
+        var toggleMapStyle = true
+        var authFailAlert = false
+        var authUnableAlert = false
+
 
 
         init() {
@@ -34,6 +38,9 @@ extension BucketList {
             } catch {
                 print("Unable to save data.")
             }
+        }
+        func toggleStyle() {
+            toggleMapStyle.toggle()
         }
         
         func addLocation(at point: CLLocationCoordinate2D) {
@@ -62,12 +69,17 @@ extension BucketList {
 
                     if success {
                         self.isUnlocked = true
+                        
                     } else {
                         // error
+                        self.authFailAlert = true
+                        print("auth failed...")
+
                     }
                 }
             } else {
                 // no biometrics
+                self.authUnableAlert = true
             }
         }
         

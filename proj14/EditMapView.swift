@@ -11,32 +11,27 @@ struct EditMapView: View {
     enum LoadingState {
         case loading, loaded, failed
     }
+    @State private var viewModel : ViewModel
+
     
     @Environment(\.dismiss) var dismiss
-     var location: Location
 
-     @State private var name: String
-     @State private var description: String
-     var onSave: (Location) -> Void
+
     
     @State private var loadingState = LoadingState.loading
     @State private var pages = [MapPage]()
 
     
     init(location: Location, onSave: @escaping (Location) -> Void) {
-        self.location = location
-        self.onSave = onSave
-
-        _name = State(initialValue: location.name)
-        _description = State(initialValue: location.description)
+        self.viewModel = ViewModel(location: location, onSave: onSave)
     }
 
      var body: some View {
          NavigationStack {
              Form {
                  Section {
-                     TextField("Place name", text: $name)
-                     TextField("Description", text: $description)
+                     TextField("Place name", text: $viewModel.name)
+                     TextField("Description", text: $viewModel.description)
                  }
                  Section("Nearby…") {
                      switch loadingState {
@@ -58,12 +53,7 @@ struct EditMapView: View {
              .navigationTitle("Place details")
              .toolbar {
                  Button("Save") {
-                     var newLocation = location
-                     newLocation.id = UUID()
-                     newLocation.name = name
-                     newLocation.description = description
-
-                     onSave(newLocation)
+                     viewModel.save()
                      dismiss()
                  }
 
@@ -76,7 +66,7 @@ struct EditMapView: View {
     
     
     func fetchNearbyPlaces() async {
-        let urlString = "https://en.wikipedia.org/w/api.php?ggscoord=\(location.latitude)%7C\(location.longitude)&action=query&prop=coordinates%7Cpageimages%7Cpageterms&colimit=50&piprop=thumbnail&pithumbsize=500&pilimit=50&wbptterms=description&generator=geosearch&ggsradius=10000&ggslimit=50&format=json"
+        let urlString = "https://en.wikipedia.org/w/api.php?ggscoord=\(viewModel.location.latitude)%7C\(viewModel.location.longitude)&action=query&prop=coordinates%7Cpageimages%7Cpageterms&colimit=50&piprop=thumbnail&pithumbsize=500&pilimit=50&wbptterms=description&generator=geosearch&ggsradius=10000&ggslimit=50&format=json"
         guard let url = URL(string: urlString) else {
             print("Bad URL: \(urlString)")
             return
