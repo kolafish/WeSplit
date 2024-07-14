@@ -13,7 +13,6 @@
 		1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */; };
 		1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344EC2C35431C0049A645 /* HabitTracker.swift */; };
 		1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */; };
-		1B3554282C422AE00015BE5D /* AccessibilitySandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */; };
 		1B35542A2C422C060015BE5D /* OviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554292C422C060015BE5D /* OviceTest.swift */; };
 		1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542B2C4257C80015BE5D /* OviceTest2.swift */; };
 		1B35542E2C425A250015BE5D /* GuessFlag3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542D2C425A250015BE5D /* GuessFlag3.swift */; };
@@ -38,6 +37,8 @@
 		1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED12C3CF19200DBDDCD /* UserC5.swift */; };
 		1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED52C3D09F800DBDDCD /* FriendFaceShow.swift */; };
 		1B6B8ED82C3D0BAA00DBDDCD /* UserC15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B8ED72C3D0BAA00DBDDCD /* UserC15View.swift */; };
+		1B776B012C427C9600BFD0BE /* PicAnnotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B776B002C427C9600BFD0BE /* PicAnnotate.swift */; };
+		1B776B032C427CC200BFD0BE /* PicAnnotateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B776B022C427CC200BFD0BE /* PicAnnotateViewModel.swift */; };
 		1B98B3F62C37C554008FBE90 /* iExprenseSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B98B3F52C37C554008FBE90 /* iExprenseSD.swift */; };
 		1BA3F8932C33DA8E00CA5FEA /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8922C33DA8E00CA5FEA /* astronauts.json */; };
 		1BA3F8952C33DA9800CA5FEA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3F8942C33DA9800CA5FEA /* missions.json */; };
@@ -101,7 +102,6 @@
 		1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4moonshot.swift; sourceTree = "<group>"; };
 		1B0344EC2C35431C0049A645 /* HabitTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker.swift; sourceTree = "<group>"; };
 		1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapViewModel.swift; sourceTree = "<group>"; };
-		1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySandbox.swift; sourceTree = "<group>"; };
 		1B3554292C422C060015BE5D /* OviceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest.swift; sourceTree = "<group>"; };
 		1B35542B2C4257C80015BE5D /* OviceTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest2.swift; sourceTree = "<group>"; };
 		1B35542D2C425A250015BE5D /* GuessFlag3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlag3.swift; sourceTree = "<group>"; };
@@ -126,6 +126,8 @@
 		1B6B8ED12C3CF19200DBDDCD /* UserC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserC5.swift; sourceTree = "<group>"; };
 		1B6B8ED52C3D09F800DBDDCD /* FriendFaceShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceShow.swift; sourceTree = "<group>"; };
 		1B6B8ED72C3D0BAA00DBDDCD /* UserC15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserC15View.swift; sourceTree = "<group>"; };
+		1B776B002C427C9600BFD0BE /* PicAnnotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicAnnotate.swift; sourceTree = "<group>"; };
+		1B776B022C427CC200BFD0BE /* PicAnnotateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicAnnotateViewModel.swift; sourceTree = "<group>"; };
 		1B98B3F52C37C554008FBE90 /* iExprenseSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExprenseSD.swift; sourceTree = "<group>"; };
 		1BA3F8922C33DA8E00CA5FEA /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		1BA3F8942C33DA9800CA5FEA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
@@ -206,7 +208,6 @@
 		1B3554262C422ACD0015BE5D /* proj15 */ = {
 			isa = PBXGroup;
 			children = (
-				1B3554272C422AE00015BE5D /* AccessibilitySandbox.swift */,
 				1B3554292C422C060015BE5D /* OviceTest.swift */,
 				1B35542B2C4257C80015BE5D /* OviceTest2.swift */,
 				1B35542D2C425A250015BE5D /* GuessFlag3.swift */,
@@ -253,9 +254,19 @@
 			path = Consolidation5;
 			sourceTree = "<group>";
 		};
+		1B776AFF2C427C2800BFD0BE /* Consolidation6 */ = {
+			isa = PBXGroup;
+			children = (
+				1B776B002C427C9600BFD0BE /* PicAnnotate.swift */,
+				1B776B022C427CC200BFD0BE /* PicAnnotateViewModel.swift */,
+			);
+			path = Consolidation6;
+			sourceTree = "<group>";
+		};
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B776AFF2C427C2800BFD0BE /* Consolidation6 */,
 				1B3554262C422ACD0015BE5D /* proj15 */,
 				1BADF4222C3E88DE009C1711 /* proj14 */,
 				E7DB29B22C3E112800D23D04 /* proj13 */,
@@ -561,7 +572,6 @@
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
 				1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */,
 				1B66A48B2C36822C007AB923 /* Student.swift in Sources */,
-				1B3554282C422AE00015BE5D /* AccessibilitySandbox.swift in Sources */,
 				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
 				E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */,
 				E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */,
@@ -582,12 +592,14 @@
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */,
 				1B4D7DC02C37A30B006CDD0D /* User.swift in Sources */,
+				1B776B032C427CC200BFD0BE /* PicAnnotateViewModel.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
 				1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */,
 				1B4D7D9D2C369FCC006CDD0D /* EmojiRatingView.swift in Sources */,
 				1B6B8ED82C3D0BAA00DBDDCD /* UserC15View.swift in Sources */,
 				E70A310C2C32CB960047C834 /* proj8test.swift in Sources */,
+				1B776B012C427C9600BFD0BE /* PicAnnotate.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
 				1B66A4872C367BD5007AB923 /* bingtest.swift in Sources */,
 				E7AB15102C2F9EF50020F7EA /* SleepCalculator.mlmodel in Sources */,
