@@ -12,6 +12,11 @@
 		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
 		1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */; };
 		1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344EC2C35431C0049A645 /* HabitTracker.swift */; };
+		1B05BAF42C43E16B00396FEF /* HotProspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAF32C43E16B00396FEF /* HotProspects.swift */; };
+		1B05BAF62C43E58A00396FEF /* SelectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAF52C43E58A00396FEF /* SelectTest.swift */; };
+		1B05BAF82C43F5F600396FEF /* resulttest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAF72C43F5F600396FEF /* resulttest.swift */; };
+		1B05BAFC2C44293600396FEF /* rowswipetest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAFB2C44293600396FEF /* rowswipetest.swift */; };
+		1B05BB002C44322200396FEF /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 1B05BAFF2C44322200396FEF /* SamplePackage */; };
 		1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */; };
 		1B35542A2C422C060015BE5D /* OviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554292C422C060015BE5D /* OviceTest.swift */; };
 		1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542B2C4257C80015BE5D /* OviceTest2.swift */; };
@@ -101,6 +106,10 @@
 		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
 		1B0344E92C350E4C0049A645 /* proj9ch4moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4moonshot.swift; sourceTree = "<group>"; };
 		1B0344EC2C35431C0049A645 /* HabitTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker.swift; sourceTree = "<group>"; };
+		1B05BAF32C43E16B00396FEF /* HotProspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspects.swift; sourceTree = "<group>"; };
+		1B05BAF52C43E58A00396FEF /* SelectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTest.swift; sourceTree = "<group>"; };
+		1B05BAF72C43F5F600396FEF /* resulttest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resulttest.swift; sourceTree = "<group>"; };
+		1B05BAFB2C44293600396FEF /* rowswipetest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rowswipetest.swift; sourceTree = "<group>"; };
 		1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapViewModel.swift; sourceTree = "<group>"; };
 		1B3554292C422C060015BE5D /* OviceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest.swift; sourceTree = "<group>"; };
 		1B35542B2C4257C80015BE5D /* OviceTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest2.swift; sourceTree = "<group>"; };
@@ -191,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B05BB002C44322200396FEF /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +213,17 @@
 				1B0344EC2C35431C0049A645 /* HabitTracker.swift */,
 			);
 			path = Consilidation4;
+			sourceTree = "<group>";
+		};
+		1B05BAF22C43DF9C00396FEF /* proj16 */ = {
+			isa = PBXGroup;
+			children = (
+				1B05BAF32C43E16B00396FEF /* HotProspects.swift */,
+				1B05BAF52C43E58A00396FEF /* SelectTest.swift */,
+				1B05BAF72C43F5F600396FEF /* resulttest.swift */,
+				1B05BAFB2C44293600396FEF /* rowswipetest.swift */,
+			);
+			path = proj16;
 			sourceTree = "<group>";
 		};
 		1B3554262C422ACD0015BE5D /* proj15 */ = {
@@ -266,6 +287,7 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B05BAF22C43DF9C00396FEF /* proj16 */,
 				1B776AFF2C427C2800BFD0BE /* Consolidation6 */,
 				1B3554262C422ACD0015BE5D /* proj15 */,
 				1BADF4222C3E88DE009C1711 /* proj14 */,
@@ -491,6 +513,9 @@
 			dependencies = (
 			);
 			name = WeSplit;
+			packageProductDependencies = (
+				1B05BAFF2C44322200396FEF /* SamplePackage */,
+			);
 			productName = WeSplit;
 			productReference = 1BA86D322C2BC49F006CEEBB /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
@@ -519,6 +544,10 @@
 				Base,
 			);
 			mainGroup = 1BA86D292C2BC49F006CEEBB;
+			packageReferences = (
+				1B05BAFD2C44317800396FEF /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				1B05BAFE2C44322200396FEF /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = 1BA86D332C2BC49F006CEEBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -551,12 +580,14 @@
 				1BADF4262C3E8A7A009C1711 /* UserP14.swift in Sources */,
 				1BA86D442C2D08DF006CEEBB /* TempConv.swift in Sources */,
 				1BA86D4A2C2D6209006CEEBB /* button.swift in Sources */,
+				1B05BAF42C43E16B00396FEF /* HotProspects.swift in Sources */,
 				E7AB15132C2FB1590020F7EA /* WordScramble.swift in Sources */,
 				1B4D7DBE2C378E71006CDD0D /* SwiftDataProject.swift in Sources */,
 				1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */,
 				1BC25B102C4179CE000D5B84 /* MapContentView-ViewModel.swift in Sources */,
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
+				1B05BAF82C43F5F600396FEF /* resulttest.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
 				E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */,
 				1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */,
@@ -589,6 +620,7 @@
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
 				1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */,
+				1B05BAF62C43E58A00396FEF /* SelectTest.swift in Sources */,
 				1BA86D362C2BC49F006CEEBB /* WeSplitApp.swift in Sources */,
 				1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */,
 				1B4D7DC02C37A30B006CDD0D /* User.swift in Sources */,
@@ -621,6 +653,7 @@
 				1B3554302C425C410015BE5D /* WordScramble2.swift in Sources */,
 				1BA3F8AB2C34010600CA5FEA /* AstronautView.swift in Sources */,
 				1B66A4832C3678DF007AB923 /* Bookworm.swift in Sources */,
+				1B05BAFC2C44293600396FEF /* rowswipetest.swift in Sources */,
 				1B4D7D992C369842006CDD0D /* AddBookView.swift in Sources */,
 				1BA3F8A32C33E2C600CA5FEA /* Mission.swift in Sources */,
 				1B66A47A2C364B8C007AB923 /* Order.swift in Sources */,
@@ -842,6 +875,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B05BAFD2C44317800396FEF /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		1B05BAFE2C44322200396FEF /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B05BAFF2C44322200396FEF /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B05BAFE2C44322200396FEF /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1BA86D2A2C2BC49F006CEEBB /* Project object */;
 }

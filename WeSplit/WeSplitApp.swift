@@ -30,7 +30,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            OviceTest()
+            rowswipetest()
         }
         .modelContainer(sharedModelContainer)
 
