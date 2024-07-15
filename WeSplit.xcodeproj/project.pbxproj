@@ -17,6 +17,10 @@
 		1B05BAF82C43F5F600396FEF /* resulttest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAF72C43F5F600396FEF /* resulttest.swift */; };
 		1B05BAFC2C44293600396FEF /* rowswipetest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BAFB2C44293600396FEF /* rowswipetest.swift */; };
 		1B05BB002C44322200396FEF /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 1B05BAFF2C44322200396FEF /* SamplePackage */; };
+		1B05BB022C44BD1C00396FEF /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BB012C44BD1C00396FEF /* ProspectsView.swift */; };
+		1B05BB042C44BF6F00396FEF /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BB032C44BF6F00396FEF /* Prospect.swift */; };
+		1B05BB062C44D50100396FEF /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05BB052C44D50100396FEF /* MeView.swift */; };
+		1B05BB092C44F4E600396FEF /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 1B05BB082C44F4E600396FEF /* CodeScanner */; };
 		1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */; };
 		1B35542A2C422C060015BE5D /* OviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3554292C422C060015BE5D /* OviceTest.swift */; };
 		1B35542C2C4257C80015BE5D /* OviceTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B35542B2C4257C80015BE5D /* OviceTest2.swift */; };
@@ -70,6 +74,7 @@
 		1BC25B0C2C40EB92000D5B84 /* EditMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0B2C40EB92000D5B84 /* EditMapView.swift */; };
 		1BC25B0E2C412250000D5B84 /* MapResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0D2C412250000D5B84 /* MapResult.swift */; };
 		1BC25B102C4179CE000D5B84 /* MapContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC25B0F2C4179CE000D5B84 /* MapContentView-ViewModel.swift */; };
+		1BE604442C45591A00656ED6 /* ProspectsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE604432C45591A00656ED6 /* ProspectsDetailView.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
 		E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */; };
@@ -110,6 +115,9 @@
 		1B05BAF52C43E58A00396FEF /* SelectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTest.swift; sourceTree = "<group>"; };
 		1B05BAF72C43F5F600396FEF /* resulttest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resulttest.swift; sourceTree = "<group>"; };
 		1B05BAFB2C44293600396FEF /* rowswipetest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rowswipetest.swift; sourceTree = "<group>"; };
+		1B05BB012C44BD1C00396FEF /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		1B05BB032C44BF6F00396FEF /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		1B05BB052C44D50100396FEF /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		1B19082D2C4220550030CCC4 /* EditMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapViewModel.swift; sourceTree = "<group>"; };
 		1B3554292C422C060015BE5D /* OviceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest.swift; sourceTree = "<group>"; };
 		1B35542B2C4257C80015BE5D /* OviceTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OviceTest2.swift; sourceTree = "<group>"; };
@@ -164,6 +172,7 @@
 		1BC25B0B2C40EB92000D5B84 /* EditMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapView.swift; sourceTree = "<group>"; };
 		1BC25B0D2C412250000D5B84 /* MapResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResult.swift; sourceTree = "<group>"; };
 		1BC25B0F2C4179CE000D5B84 /* MapContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		1BE604432C45591A00656ED6 /* ProspectsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsDetailView.swift; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
 		E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionTest.swift; sourceTree = "<group>"; };
@@ -200,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B05BB092C44F4E600396FEF /* CodeScanner in Frameworks */,
 				1B05BB002C44322200396FEF /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +229,10 @@
 			isa = PBXGroup;
 			children = (
 				1B05BAF32C43E16B00396FEF /* HotProspects.swift */,
+				1B05BB032C44BF6F00396FEF /* Prospect.swift */,
+				1B05BB012C44BD1C00396FEF /* ProspectsView.swift */,
+				1BE604432C45591A00656ED6 /* ProspectsDetailView.swift */,
+				1B05BB052C44D50100396FEF /* MeView.swift */,
 				1B05BAF52C43E58A00396FEF /* SelectTest.swift */,
 				1B05BAF72C43F5F600396FEF /* resulttest.swift */,
 				1B05BAFB2C44293600396FEF /* rowswipetest.swift */,
@@ -515,6 +529,7 @@
 			name = WeSplit;
 			packageProductDependencies = (
 				1B05BAFF2C44322200396FEF /* SamplePackage */,
+				1B05BB082C44F4E600396FEF /* CodeScanner */,
 			);
 			productName = WeSplit;
 			productReference = 1BA86D322C2BC49F006CEEBB /* WeSplit.app */;
@@ -547,6 +562,7 @@
 			packageReferences = (
 				1B05BAFD2C44317800396FEF /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 				1B05BAFE2C44322200396FEF /* XCRemoteSwiftPackageReference "SamplePackage" */,
+				1B05BB072C44F4E600396FEF /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			productRefGroup = 1BA86D332C2BC49F006CEEBB /* Products */;
 			projectDirPath = "";
@@ -591,11 +607,14 @@
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
 				E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */,
 				1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */,
+				1B05BB022C44BD1C00396FEF /* ProspectsView.swift in Sources */,
 				E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */,
 				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
+				1BE604442C45591A00656ED6 /* ProspectsDetailView.swift in Sources */,
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
 				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
+				1B05BB062C44D50100396FEF /* MeView.swift in Sources */,
 				1BA3F89F2C33DD2000CA5FEA /*  Bundle-Decodable.swift in Sources */,
 				1BADF41F2C3E5DC3009C1711 /* PhotoLibTest.swift in Sources */,
 				1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */,
@@ -649,6 +668,7 @@
 				E7DB29B82C3E217100D23D04 /* CoreImageTest.swift in Sources */,
 				1B0344E82C3502F60049A645 /* ttttt.swift in Sources */,
 				1B35542E2C425A250015BE5D /* GuessFlag3.swift in Sources */,
+				1B05BB042C44BF6F00396FEF /* Prospect.swift in Sources */,
 				E7785C202C403EBD0093B728 /* Location.swift in Sources */,
 				1B3554302C425C410015BE5D /* WordScramble2.swift in Sources */,
 				1BA3F8AB2C34010600CA5FEA /* AstronautView.swift in Sources */,
@@ -801,7 +821,9 @@
 				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We need to unlock your data\"";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -834,7 +856,9 @@
 				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"We need to unlock your data\"";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -893,6 +917,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		1B05BB072C44F4E600396FEF /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -900,6 +932,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1B05BAFE2C44322200396FEF /* XCRemoteSwiftPackageReference "SamplePackage" */;
 			productName = SamplePackage;
+		};
+		1B05BB082C44F4E600396FEF /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B05BB072C44F4E600396FEF /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

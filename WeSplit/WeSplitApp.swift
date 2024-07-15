@@ -13,11 +13,12 @@ import SwiftData
 struct WeSplitApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Student.self,
-            Book.self,
-            UserP12.self,
+//            Student.self,
+//            Book.self,
+//            UserP12.self,
             ExpensesSD.self,
-            UserC5.self
+            UserC5.self,
+            Prospect.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -30,7 +31,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            rowswipetest()
+            HotProspects()
         }
         .modelContainer(sharedModelContainer)
 

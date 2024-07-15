@@ -7,17 +7,17 @@
 
 import SwiftUI
 struct Response: Codable {
-    var results: [Result]
+    var results: [MyResult]
 }
 
-struct Result: Codable {
+struct MyResult: Codable {
     var trackId: Int
     var trackName: String
     var collectionName: String
 }
 
 struct proj10networktest1: View {
-    @State private var results = [Result]()
+    @State private var results = [MyResult]()
     @State private var username = "Jin"
     @State private var email = "123@456.com"
     var disableForm: Bool {
