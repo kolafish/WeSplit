@@ -77,6 +77,7 @@
 		1BE604442C45591A00656ED6 /* ProspectsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE604432C45591A00656ED6 /* ProspectsDetailView.swift */; };
 		1BE604472C4578AC00656ED6 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE604462C4578AC00656ED6 /* Flashzilla.swift */; };
 		1BE604492C45793800656ED6 /* GestureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE604482C45793800656ED6 /* GestureTest.swift */; };
+		1BE6044B2C46C6B800656ED6 /* TimerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6044A2C46C6B800656ED6 /* TimerTest.swift */; };
 		E70A310C2C32CB960047C834 /* proj8test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310B2C32CB960047C834 /* proj8test.swift */; };
 		E70A310E2C32F27E0047C834 /* proj8test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D2C32F27E0047C834 /* proj8test2.swift */; };
 		E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */; };
@@ -177,6 +178,7 @@
 		1BE604432C45591A00656ED6 /* ProspectsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsDetailView.swift; sourceTree = "<group>"; };
 		1BE604462C4578AC00656ED6 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
 		1BE604482C45793800656ED6 /* GestureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTest.swift; sourceTree = "<group>"; };
+		1BE6044A2C46C6B800656ED6 /* TimerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTest.swift; sourceTree = "<group>"; };
 		E70A310B2C32CB960047C834 /* proj8test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test.swift; sourceTree = "<group>"; };
 		E70A310D2C32F27E0047C834 /* proj8test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj8test2.swift; sourceTree = "<group>"; };
 		E73E68222C3EDE7B00F8B509 /* ConditionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionTest.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 			children = (
 				1BE604462C4578AC00656ED6 /* Flashzilla.swift */,
 				1BE604482C45793800656ED6 /* GestureTest.swift */,
+				1BE6044A2C46C6B800656ED6 /* TimerTest.swift */,
 			);
 			path = proj17;
 			sourceTree = "<group>";
@@ -642,6 +645,7 @@
 				1B0344EA2C350E4C0049A645 /* proj9ch4moonshot.swift in Sources */,
 				1B4D7DC42C37A6C5006CDD0D /* UsersView.swift in Sources */,
 				1BC25B0C2C40EB92000D5B84 /* EditMapView.swift in Sources */,
+				1BE6044B2C46C6B800656ED6 /* TimerTest.swift in Sources */,
 				1BE604472C4578AC00656ED6 /* Flashzilla.swift in Sources */,
 				1B4D7DBB2C36A1BB006CDD0D /* DetailView.swift in Sources */,
 				1BA3F8A52C33EEF300CA5FEA /* Color-Theme.swift in Sources */,
