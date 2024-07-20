@@ -17,6 +17,12 @@
 		1B01FAA12C4BA25800CA3675 /* GeometryReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA02C4BA25800CA3675 /* GeometryReaderTest.swift */; };
 		1B01FAA32C4BB00900CA3675 /* GeometryReaderTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA22C4BB00900CA3675 /* GeometryReaderTest2.swift */; };
 		1B01FAA52C4BB49000CA3675 /* GeometryReaderTest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA42C4BB49000CA3675 /* GeometryReaderTest3.swift */; };
+		1B01FAAA2C4C0AC700CA3675 /* RollResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA92C4C0AC700CA3675 /* RollResultsView.swift */; };
+		1B01FAAC2C4C0AFC00CA3675 /* GameResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAAB2C4C0AFC00CA3675 /* GameResults.swift */; };
+		1B01FAAE2C4C0B1900CA3675 /* FileManager-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAAD2C4C0B1900CA3675 /* FileManager-Extension.swift */; };
+		1B01FAB02C4C0B4600CA3675 /* RollDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAAF2C4C0B4600CA3675 /* RollDice.swift */; };
+		1B01FAB32C4C0EC000CA3675 /* SnowSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAB22C4C0EC000CA3675 /* SnowSeeker.swift */; };
+		1B01FAB52C4C167A00CA3675 /* ViewSplitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAB42C4C167A00CA3675 /* ViewSplitTest.swift */; };
 		1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */; };
 		1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */; };
 		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
@@ -129,6 +135,12 @@
 		1B01FAA02C4BA25800CA3675 /* GeometryReaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest.swift; sourceTree = "<group>"; };
 		1B01FAA22C4BB00900CA3675 /* GeometryReaderTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest2.swift; sourceTree = "<group>"; };
 		1B01FAA42C4BB49000CA3675 /* GeometryReaderTest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest3.swift; sourceTree = "<group>"; };
+		1B01FAA92C4C0AC700CA3675 /* RollResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollResultsView.swift; sourceTree = "<group>"; };
+		1B01FAAB2C4C0AFC00CA3675 /* GameResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResults.swift; sourceTree = "<group>"; };
+		1B01FAAD2C4C0B1900CA3675 /* FileManager-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-Extension.swift"; sourceTree = "<group>"; };
+		1B01FAAF2C4C0B4600CA3675 /* RollDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDice.swift; sourceTree = "<group>"; };
+		1B01FAB22C4C0EC000CA3675 /* SnowSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeeker.swift; sourceTree = "<group>"; };
+		1B01FAB42C4C167A00CA3675 /* ViewSplitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSplitTest.swift; sourceTree = "<group>"; };
 		1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9navigationtest3.swift; sourceTree = "<group>"; };
 		1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4iExpense.swift; sourceTree = "<group>"; };
 		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
@@ -257,6 +269,26 @@
 			path = proj18;
 			sourceTree = "<group>";
 		};
+		1B01FAA82C4C09F600CA3675 /* consolidation7 */ = {
+			isa = PBXGroup;
+			children = (
+				1B01FAA92C4C0AC700CA3675 /* RollResultsView.swift */,
+				1B01FAAF2C4C0B4600CA3675 /* RollDice.swift */,
+				1B01FAAB2C4C0AFC00CA3675 /* GameResults.swift */,
+				1B01FAAD2C4C0B1900CA3675 /* FileManager-Extension.swift */,
+			);
+			path = consolidation7;
+			sourceTree = "<group>";
+		};
+		1B01FAB12C4C0BA700CA3675 /* proj19 */ = {
+			isa = PBXGroup;
+			children = (
+				1B01FAB22C4C0EC000CA3675 /* SnowSeeker.swift */,
+				1B01FAB42C4C167A00CA3675 /* ViewSplitTest.swift */,
+			);
+			path = proj19;
+			sourceTree = "<group>";
+		};
 		1B0344EB2C3542FB0049A645 /* Consilidation4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +373,8 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B01FAB12C4C0BA700CA3675 /* proj19 */,
+				1B01FAA82C4C09F600CA3675 /* consolidation7 */,
 				1B01FA972C4B816F00CA3675 /* proj18 */,
 				1BE604452C4575C800656ED6 /* proj17 */,
 				1B05BAF22C43DF9C00396FEF /* proj16 */,
@@ -671,6 +705,7 @@
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
 				1BE604442C45591A00656ED6 /* ProspectsDetailView.swift in Sources */,
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
+				1B01FAB02C4C0B4600CA3675 /* RollDice.swift in Sources */,
 				1B01FA9D2C4B964B00CA3675 /* AlignmentTest.swift in Sources */,
 				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
 				1B05BB062C44D50100396FEF /* MeView.swift in Sources */,
@@ -710,6 +745,7 @@
 				1B776B032C427CC200BFD0BE /* PicAnnotateViewModel.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
+				1B01FAAA2C4C0AC700CA3675 /* RollResultsView.swift in Sources */,
 				1B01FA9B2C4B896F00CA3675 /* LayoutTest.swift in Sources */,
 				1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */,
 				1BE604492C45793800656ED6 /* GestureTest.swift in Sources */,
@@ -719,6 +755,7 @@
 				1B776B012C427C9600BFD0BE /* PicAnnotate.swift in Sources */,
 				E7AB15022C2DA0490020F7EA /* GuessFlag2.swift in Sources */,
 				1B01FA942C47B07500CA3675 /* CardView.swift in Sources */,
+				1B01FAAC2C4C0AFC00CA3675 /* GameResults.swift in Sources */,
 				1B66A4872C367BD5007AB923 /* bingtest.swift in Sources */,
 				E7AB15102C2F9EF50020F7EA /* SleepCalculator.mlmodel in Sources */,
 				1B66A47E2C364D89007AB923 /* AddressView.swift in Sources */,
@@ -734,8 +771,11 @@
 				1B98B3F62C37C554008FBE90 /* iExprenseSD.swift in Sources */,
 				E7AB15072C2E84820020F7EA /* CustomContainer.swift in Sources */,
 				E7DB29B82C3E217100D23D04 /* CoreImageTest.swift in Sources */,
+				1B01FAB32C4C0EC000CA3675 /* SnowSeeker.swift in Sources */,
+				1B01FAAE2C4C0B1900CA3675 /* FileManager-Extension.swift in Sources */,
 				1B0344E82C3502F60049A645 /* ttttt.swift in Sources */,
 				1B35542E2C425A250015BE5D /* GuessFlag3.swift in Sources */,
+				1B01FAB52C4C167A00CA3675 /* ViewSplitTest.swift in Sources */,
 				1B05BB042C44BF6F00396FEF /* Prospect.swift in Sources */,
 				E7785C202C403EBD0093B728 /* Location.swift in Sources */,
 				1B3554302C425C410015BE5D /* WordScramble2.swift in Sources */,
