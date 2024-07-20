@@ -31,7 +31,7 @@ struct WeSplitApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HotProspects()
+            Flashzilla()
         }
         .modelContainer(sharedModelContainer)
 

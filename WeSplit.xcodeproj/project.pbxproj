@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B01FA922C47AF0E00CA3675 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA912C47AF0E00CA3675 /* Card.swift */; };
 		1B01FA942C47B07500CA3675 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA932C47B07500CA3675 /* CardView.swift */; };
+		1B01FA962C4A890A00CA3675 /* EditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA952C4A890A00CA3675 /* EditCard.swift */; };
 		1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */; };
 		1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */; };
 		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
@@ -113,6 +114,7 @@
 /* Begin PBXFileReference section */
 		1B01FA912C47AF0E00CA3675 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1B01FA932C47B07500CA3675 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1B01FA952C4A890A00CA3675 /* EditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCard.swift; sourceTree = "<group>"; };
 		1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9navigationtest3.swift; sourceTree = "<group>"; };
 		1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4iExpense.swift; sourceTree = "<group>"; };
 		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				1BE604462C4578AC00656ED6 /* Flashzilla.swift */,
+				1B01FA952C4A890A00CA3675 /* EditCard.swift */,
 				1BE604482C45793800656ED6 /* GestureTest.swift */,
 				1BE6044A2C46C6B800656ED6 /* TimerTest.swift */,
 				1B01FA912C47AF0E00CA3675 /* Card.swift */,
@@ -638,6 +641,7 @@
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
 				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
 				1B05BB062C44D50100396FEF /* MeView.swift in Sources */,
+				1B01FA962C4A890A00CA3675 /* EditCard.swift in Sources */,
 				1BA3F89F2C33DD2000CA5FEA /*  Bundle-Decodable.swift in Sources */,
 				1BADF41F2C3E5DC3009C1711 /* PhotoLibTest.swift in Sources */,
 				1B19082E2C4220550030CCC4 /* EditMapViewModel.swift in Sources */,
