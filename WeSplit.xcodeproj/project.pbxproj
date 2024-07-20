@@ -10,6 +10,13 @@
 		1B01FA922C47AF0E00CA3675 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA912C47AF0E00CA3675 /* Card.swift */; };
 		1B01FA942C47B07500CA3675 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA932C47B07500CA3675 /* CardView.swift */; };
 		1B01FA962C4A890A00CA3675 /* EditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA952C4A890A00CA3675 /* EditCard.swift */; };
+		1B01FA992C4B84B500CA3675 /* LayoutAndGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA982C4B84B500CA3675 /* LayoutAndGeometry.swift */; };
+		1B01FA9B2C4B896F00CA3675 /* LayoutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA9A2C4B896F00CA3675 /* LayoutTest.swift */; };
+		1B01FA9D2C4B964B00CA3675 /* AlignmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA9C2C4B964B00CA3675 /* AlignmentTest.swift */; };
+		1B01FA9F2C4B9B3B00CA3675 /* PositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FA9E2C4B9B3B00CA3675 /* PositionTest.swift */; };
+		1B01FAA12C4BA25800CA3675 /* GeometryReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA02C4BA25800CA3675 /* GeometryReaderTest.swift */; };
+		1B01FAA32C4BB00900CA3675 /* GeometryReaderTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA22C4BB00900CA3675 /* GeometryReaderTest2.swift */; };
+		1B01FAA52C4BB49000CA3675 /* GeometryReaderTest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01FAA42C4BB49000CA3675 /* GeometryReaderTest3.swift */; };
 		1B0344E42C34F6B00049A645 /* proj9navigationtest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */; };
 		1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */; };
 		1B0344E82C3502F60049A645 /* ttttt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0344E72C3502F60049A645 /* ttttt.swift */; };
@@ -115,6 +122,13 @@
 		1B01FA912C47AF0E00CA3675 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		1B01FA932C47B07500CA3675 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1B01FA952C4A890A00CA3675 /* EditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCard.swift; sourceTree = "<group>"; };
+		1B01FA982C4B84B500CA3675 /* LayoutAndGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAndGeometry.swift; sourceTree = "<group>"; };
+		1B01FA9A2C4B896F00CA3675 /* LayoutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTest.swift; sourceTree = "<group>"; };
+		1B01FA9C2C4B964B00CA3675 /* AlignmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTest.swift; sourceTree = "<group>"; };
+		1B01FA9E2C4B9B3B00CA3675 /* PositionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTest.swift; sourceTree = "<group>"; };
+		1B01FAA02C4BA25800CA3675 /* GeometryReaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest.swift; sourceTree = "<group>"; };
+		1B01FAA22C4BB00900CA3675 /* GeometryReaderTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest2.swift; sourceTree = "<group>"; };
+		1B01FAA42C4BB49000CA3675 /* GeometryReaderTest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTest3.swift; sourceTree = "<group>"; };
 		1B0344E32C34F6B00049A645 /* proj9navigationtest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9navigationtest3.swift; sourceTree = "<group>"; };
 		1B0344E52C34FF1D0049A645 /* proj9ch4iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proj9ch4iExpense.swift; sourceTree = "<group>"; };
 		1B0344E72C3502F60049A645 /* ttttt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ttttt.swift; sourceTree = "<group>"; };
@@ -229,6 +243,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B01FA972C4B816F00CA3675 /* proj18 */ = {
+			isa = PBXGroup;
+			children = (
+				1B01FA982C4B84B500CA3675 /* LayoutAndGeometry.swift */,
+				1B01FA9A2C4B896F00CA3675 /* LayoutTest.swift */,
+				1B01FA9C2C4B964B00CA3675 /* AlignmentTest.swift */,
+				1B01FA9E2C4B9B3B00CA3675 /* PositionTest.swift */,
+				1B01FAA02C4BA25800CA3675 /* GeometryReaderTest.swift */,
+				1B01FAA22C4BB00900CA3675 /* GeometryReaderTest2.swift */,
+				1B01FAA42C4BB49000CA3675 /* GeometryReaderTest3.swift */,
+			);
+			path = proj18;
+			sourceTree = "<group>";
+		};
 		1B0344EB2C3542FB0049A645 /* Consilidation4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +341,7 @@
 		1BA86D292C2BC49F006CEEBB = {
 			isa = PBXGroup;
 			children = (
+				1B01FA972C4B816F00CA3675 /* proj18 */,
 				1BE604452C4575C800656ED6 /* proj17 */,
 				1B05BAF22C43DF9C00396FEF /* proj16 */,
 				1B776AFF2C427C2800BFD0BE /* Consolidation6 */,
@@ -627,18 +656,22 @@
 				1B4D7DBE2C378E71006CDD0D /* SwiftDataProject.swift in Sources */,
 				1B66A4892C367F68007AB923 /* TextEditorTest.swift in Sources */,
 				1BC25B102C4179CE000D5B84 /* MapContentView-ViewModel.swift in Sources */,
+				1B01FA9F2C4B9B3B00CA3675 /* PositionTest.swift in Sources */,
 				1BA3F89D2C33DCF300CA5FEA /* Astronaut.swift in Sources */,
 				1BA86D382C2BC49F006CEEBB /* ContentView.swift in Sources */,
 				1B05BAF82C43F5F600396FEF /* resulttest.swift in Sources */,
 				1B0344E62C34FF1D0049A645 /* proj9ch4iExpense.swift in Sources */,
 				E73E68232C3EDE7B00F8B509 /* ConditionTest.swift in Sources */,
+				1B01FAA52C4BB49000CA3675 /* GeometryReaderTest3.swift in Sources */,
 				1BADF4282C3E9173009C1711 /* FileManagerBundle.swift in Sources */,
 				1B05BB022C44BD1C00396FEF /* ProspectsView.swift in Sources */,
+				1B01FA992C4B84B500CA3675 /* LayoutAndGeometry.swift in Sources */,
 				E7C13B982C345D50007AA957 /* proj9NavigationTest2.swift in Sources */,
 				E7AB15502C3269210020F7EA /* iExpense.swift in Sources */,
 				E7AB152B2C3027280020F7EA /* AnimationTest.swift in Sources */,
 				1BE604442C45591A00656ED6 /* ProspectsDetailView.swift in Sources */,
 				E7AB15522C32B1550020F7EA /* iExprense2.swift in Sources */,
+				1B01FA9D2C4B964B00CA3675 /* AlignmentTest.swift in Sources */,
 				1BADF4212C3E6E6A009C1711 /* PhotoShareTest.swift in Sources */,
 				1B05BB062C44D50100396FEF /* MeView.swift in Sources */,
 				1B01FA962C4A890A00CA3675 /* EditCard.swift in Sources */,
@@ -648,6 +681,7 @@
 				E73E68252C3EE2B200F8B509 /* MapTest.swift in Sources */,
 				E7AB150E2C2ECA7B0020F7EA /* BetterRest.swift in Sources */,
 				1B4D7D9B2C369D04006CDD0D /* RatingView.swift in Sources */,
+				1B01FAA32C4BB00900CA3675 /* GeometryReaderTest2.swift in Sources */,
 				1B66A48B2C36822C007AB923 /* Student.swift in Sources */,
 				E7AB150A2C2EA1D30020F7EA /* challeng_c2.swift in Sources */,
 				E7AB152F2C31462A0020F7EA /* proj6ch.swift in Sources */,
@@ -666,6 +700,7 @@
 				1BC25B0E2C412250000D5B84 /* MapResult.swift in Sources */,
 				1B0344ED2C35431C0049A645 /* HabitTracker.swift in Sources */,
 				E7AB15052C2E4F1C0020F7EA /* ViewsAndModifiers.swift in Sources */,
+				1B01FAA12C4BA25800CA3675 /* GeometryReaderTest.swift in Sources */,
 				E7C13B962C3428D3007AA957 /* proj9NavigationTest.swift in Sources */,
 				1B6B8ED22C3CF19200DBDDCD /* UserC5.swift in Sources */,
 				1B05BAF62C43E58A00396FEF /* SelectTest.swift in Sources */,
@@ -675,6 +710,7 @@
 				1B776B032C427CC200BFD0BE /* PicAnnotateViewModel.swift in Sources */,
 				E7CE1E3B2C35973100698D66 /* CupcakeCorner.swift in Sources */,
 				1BA3F8A12C33DEF900CA5FEA /* Moonshot.swift in Sources */,
+				1B01FA9B2C4B896F00CA3675 /* LayoutTest.swift in Sources */,
 				1B6B8ED62C3D09F800DBDDCD /* FriendFaceShow.swift in Sources */,
 				1BE604492C45793800656ED6 /* GestureTest.swift in Sources */,
 				1B4D7D9D2C369FCC006CDD0D /* EmojiRatingView.swift in Sources */,
