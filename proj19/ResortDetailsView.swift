@@ -21,6 +21,7 @@ struct ResortDetailsView: View {
     }
 
     
+    
 
     var body: some View {
         Group {
